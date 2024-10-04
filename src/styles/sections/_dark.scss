@@ -1,0 +1,509 @@
+/* ==== 
+ --------- (5.01) dark version styles start ---------
+ ==== */
+
+//  home one dark
+.home-dark {
+  background-color: $theme-color !important;
+
+  .bg-white {
+    background-color: $theme-color !important;
+  }
+
+  .sidedot {
+    span {
+      background-color: $primary-color;
+    }
+  }
+
+  .nav__menu-link {
+    color: $white;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .nav__menu-link--dropdown {
+    color: $white;
+
+    &::after {
+      color: $white;
+    }
+  }
+
+  .nav__menu-item--dropdown {
+    &:hover {
+      .nav__menu-link--dropdown {
+        color: $primary-color;
+
+        &::after {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .nav__bar {
+    .icon-bar {
+      background-color: $white;
+    }
+  }
+
+  .header-active {
+    background-color: $theme-color;
+    border-bottom: 1px solid $white;
+  }
+
+  .banner {
+    background-color: $theme-color;
+  }
+
+  .banner__content {
+    .h6,
+    .h1 {
+      color: $white;
+    }
+  }
+
+  .services {
+    background-color: #0c0c0c;
+    .title {
+      color: $white;
+    }
+  }
+
+  .about-section {
+    background-color: $theme-color;
+    .title,
+    p {
+      color: $white;
+    }
+
+    .h6 {
+      color: $primary-color;
+    }
+
+    .btn--secondary {
+      border-color: $white !important;
+      color: $white !important;
+      &:hover {
+        border-color: $tertiary-color !important;
+      }
+    }
+  }
+
+  .work-section {
+    .work-section__inner {
+      background-image: linear-gradient(
+        180deg,
+        #0c0c0c 0%,
+        rgba(0, 0, 24, 0) 100%
+      );
+    }
+
+    .title,
+    p {
+      color: $white;
+    }
+
+    .h6 {
+      color: $primary-color;
+    }
+  }
+
+  .quality-section {
+    background-color: $theme-color;
+    .title {
+      color: $white;
+    }
+
+    .quality-filter-btn {
+      color: $white;
+    }
+  }
+
+  .testimonial {
+    background-color: #0c0c0c;
+
+    .title,
+    p {
+      color: $white;
+    }
+
+    .h6 {
+      color: $primary-color;
+    }
+
+    .h6 {
+      color: $white !important;
+    }
+  }
+
+  .title {
+    color: $white;
+  }
+
+  .pricing-section {
+    background-color: #181818;
+  }
+
+  .news-section {
+    background-color: #0c0c0c;
+    .h4 {
+      a {
+        color: $white;
+      }
+    }
+
+    .news__slider-item {
+      border: 1px solid #414141;
+    }
+
+    .cta {
+      a {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: $white;
+      }
+    }
+  }
+
+  .sponsor {
+    background-color: transparent;
+  }
+
+  @media only screen and (max-width: 1199.98px) {
+    .nav__menu-link {
+      color: $theme-color;
+      &:hover {
+        color: $tertiary-color;
+      }
+    }
+
+    .nav__menu-link--dropdown {
+      color: $theme-color;
+
+      &::after {
+        color: $theme-color;
+      }
+    }
+
+    .nav__menu-item--dropdown {
+      &:hover {
+        .nav__menu-link--dropdown {
+          color: $tertiary-color;
+
+          &::after {
+            color: $tertiary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+// home two dark
+.home-two-dark {
+  background-color: $theme-color !important;
+
+  .home-two-topbar {
+    background-color: $black;
+    padding: 20px 0px;
+    position: relative;
+    z-index: 99;
+
+    p {
+      font-weight: 600;
+    }
+
+    p,
+    a {
+      color: $white;
+
+      i {
+        color: $tertiary-color;
+      }
+    }
+
+    a {
+      &:hover {
+        color: $tertiary-color;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      row-gap: 16px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .section__header {
+    .h6 {
+      color: $primary-color;
+    }
+
+    .title {
+      color: $white;
+    }
+  }
+
+  .header {
+    .nav__menu-link {
+      color: $white;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .nav__menu-link--dropdown {
+      color: $white;
+      &::after {
+        color: $white;
+      }
+
+      &:hover {
+        color: $primary-color;
+        &::after {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .nav__menu-item--dropdown {
+      &:hover {
+        .nav__menu-link--dropdown {
+          color: $primary-color;
+
+          &::after {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    .btn--secondary {
+      i {
+        transform: rotate(50deg);
+      }
+    }
+
+    .nav__bar {
+      .icon-bar {
+        background-color: $white;
+      }
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+      .nav__menu-link {
+        color: $theme-color;
+        &:hover {
+          color: $tertiary-color;
+        }
+      }
+
+      .nav__menu-link--dropdown {
+        color: $theme-color;
+
+        &::after {
+          color: $theme-color;
+        }
+      }
+
+      .nav__menu-item--dropdown {
+        &:hover {
+          .nav__menu-link--dropdown {
+            color: $tertiary-color;
+
+            &::after {
+              color: $tertiary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header-active {
+    background-color: $theme-color;
+  }
+
+  .sidedot {
+    span {
+      background-color: $white;
+    }
+  }
+
+  .banner-two {
+    padding-top: 200px;
+    background-image: none;
+    background-color: #0c0c0c;
+
+    .h6,
+    .h1 {
+      color: $white;
+
+      span {
+        color: $white;
+      }
+    }
+
+    a {
+      color: $white;
+      i {
+        color: $white;
+        transition: $transition;
+      }
+
+      &:hover {
+        color: $primary-color;
+
+        i {
+          color: $primary-color;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 991px) {
+      padding-top: 120px;
+    }
+  }
+
+  .about-two {
+    z-index: 1;
+    .about-two__thumb {
+      &::before {
+        background-image: linear-gradient(
+          180deg,
+          #f0efff 0%,
+          rgba(217, 217, 217, 0) 100%
+        );
+      }
+    }
+
+    .h6 {
+      color: $primary-color;
+    }
+
+    .h2,
+    p {
+      color: $white;
+    }
+
+    .btn--senary {
+      background-color: $white;
+    }
+  }
+
+  .service-two {
+    background-color: #181818;
+    &::before {
+      background-image: none;
+      background-color: #0c0c0c;
+    }
+  }
+
+  .feature-two {
+    .h5,
+    p {
+      color: $white;
+    }
+    .feature__inner {
+      background-color: $black;
+    }
+  }
+
+  .testimonial-two {
+    background-color: #0c0c0c;
+
+    .h2,
+    .h4,
+    .h5,
+    p {
+      color: $white;
+    }
+
+    .h6 {
+      color: $primary-color;
+    }
+
+    .h6 {
+      color: $white !important;
+    }
+  }
+
+  .pricing-two {
+    .pricing-two__single {
+      border: 1px solid #414141;
+
+      .h2,
+      p,
+      li {
+        color: $white;
+      }
+    }
+
+    hr {
+      height: 0px;
+      opacity: 1;
+      background-color: #414141;
+      border: 1px solid #414141;
+    }
+  }
+
+  .faq {
+    background-image: none;
+    background-color: $black;
+  }
+
+  .accordion-body {
+    p {
+      color: $white;
+    }
+  }
+
+  .project {
+    background-image: none;
+    background-color: $black;
+    .h2,
+    p {
+      color: $white;
+    }
+  }
+
+  .news-two {
+    .news-two__content,
+    .news-two__alt {
+      background-color: $black;
+
+      .h4 {
+        a {
+          color: $white;
+        }
+      }
+
+      p {
+        &:nth-last-of-type(1) {
+          color: $white;
+        }
+      }
+
+      a {
+        &:hover {
+          color: $white !important;
+        }
+      }
+
+      .meta {
+        span {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/* ==== 
+ --------- (5.01) dark version styles end ---------
+ ==== */
