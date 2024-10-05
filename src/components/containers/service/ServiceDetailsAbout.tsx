@@ -1,11 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
+import axios from "axios";
+
+
+interface serviceAbout {
+  id: number; 
+  image1: string; 
+  image2: string; 
+}
 
 const ServiceDetailsAbout = () => {
+
+
+  const [data, setData] = useState<serviceAbout[]>([]);
+
+  console.log(data)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get<{ data: serviceAbout[] }>('http://localhost:5000/api/v1/clippingPath');
+        setData(response.data.data);
+      } catch (err:any) {
+        console.error("Error fetching home banner data:", err.message);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <section className="section bg-white about-section service-de-thumb-alt">
       <div className="container">
@@ -17,22 +43,30 @@ const ServiceDetailsAbout = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <div className="rangu">
+              {
+                data?.map((item)=>(
+                  <div className="rangu">
                 <ReactCompareSlider
                   itemOne={
                     <ReactCompareSliderImage
-                      src="/images/services/before.png"
+                    src={`http://localhost:5000/${item.image1}`}
+                    width={670} 
+                    height={419} 
                       alt="Image one"
                     />
                   }
                   itemTwo={
                     <ReactCompareSliderImage
-                      src="/images/services/after.png"
+                    src={`http://localhost:5000/${item.image2}`}
+                    width={670} 
+                    height={419} 
                       alt="Image two"
                     />
                   }
                 />
               </div>
+                ))
+              }
             </div>
           </div>
           <div className="col-12 col-lg-7 col-xl-6">

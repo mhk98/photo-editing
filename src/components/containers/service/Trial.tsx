@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Thumb from "public/images/trial-thumb.png";
+import trial from "../../../images/trial-thumb.webp"
 
 const Trial = () => {
   return (
@@ -43,7 +44,7 @@ const Trial = () => {
         <div className="row gaper">
           <div className="col-12 col-xl-6">
             <div className="trial__thumb">
-              <Image src={Thumb} alt="Image" />
+              <Image src={trial} alt="Image" />
             </div>
           </div>
           <div className="col-12 col-xl-6">

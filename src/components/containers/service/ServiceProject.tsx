@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,8 +7,34 @@ import "swiper/swiper-bundle.css";
 import projectone from "public/images/project-one.png";
 import projecttwo from "public/images/project-two.png";
 import projectthree from "public/images/project-three.png";
+import axios from "axios";
+
+interface HomeAbout {
+  id: number; 
+  image: string; 
+}
 
 const ServiceProject = () => {
+
+
+  const [data, setData] = useState<HomeAbout[]>([]);
+
+  console.log(data)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/clippingPathProjects');
+        setData(response.data.data);
+      } catch (err:any) {
+        console.error("Error fetching home banner data:", err.message);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+
   return (
     <section className="section project-three">
       <div className="container">
@@ -66,36 +92,20 @@ const ServiceProject = () => {
                 }}
                 className="project-three__slider"
               >
-                <SwiperSlide>
+                {
+                  data?.map((item)=>(
+                    <SwiperSlide>
                   <div className="project-three__slider-item">
-                    <Image src={projectone} alt="Image" />
+                    <Image    
+                    src={`http://localhost:5000/${item.image}`}
+                    width={401} 
+                    height={180}  
+                    alt="Image" />
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="project-three__slider-item">
-                    <Image src={projecttwo} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="project-three__slider-item">
-                    <Image src={projectthree} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="project-three__slider-item">
-                    <Image src={projectone} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="project-three__slider-item">
-                    <Image src={projecttwo} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="project-three__slider-item">
-                    <Image src={projectthree} alt="Image" />
-                  </div>
-                </SwiperSlide>
+                  ))
+                }
+                
               </Swiper>
             </div>
           </div>
