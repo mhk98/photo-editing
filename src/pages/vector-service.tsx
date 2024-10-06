@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/Banner/CmnBanner";
 import SponsorSlider from "@/components/containers/home/SponsorSlider";
-import ServiceDetailsAbout from "@/components/containers/service/ServiceDetailsAbout";
-import ServiceProject from "@/components/containers/service/ServiceProject";
-import TestimonialTwo from "@/components/containers/home-two/TestimonialTwo";
-import ServicePricing from "@/components/containers/service/ServicePricing";
-import ServiceFaq from "@/components/containers/service/ServiceFaq";
-import Trial from "@/components/containers/service/Trial";
-import WorkSec from "@/components/containers/service/WorkSec";
+import ServiceDetailsAbout from "@/components/containers/vector/ServiceDetailsAbout";
+import ServiceProject from "@/components/containers/vector/ServiceProject";
+import ServicePricing from "@/components/containers/vector/ServicePricing";
+import Testimonial from "@/components/containers/vector/Testimonial";
+import ServiceFaq from "@/components/containers/vector/ServiceFaq";
+import Trial from "@/components/containers/vector/Trial";
+import WorkSec from "@/components/containers/vector/WorkSec";
+
 
 const VectorService = () => {
   return (
@@ -18,7 +19,7 @@ const VectorService = () => {
       <WorkSec />
       <ServiceProject />
       <ServicePricing />
-      <TestimonialTwo />
+      <Testimonial />
       <ServiceFaq />
       <Trial />
       <SponsorSlider />

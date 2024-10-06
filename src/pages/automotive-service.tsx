@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/Banner/CmnBanner";
 import SponsorSlider from "@/components/containers/home/SponsorSlider";
-import ServiceDetailsAbout from "@/components/containers/service/ServiceDetailsAbout";
-import ServiceProject from "@/components/containers/service/ServiceProject";
-import TestimonialTwo from "@/components/containers/home-two/TestimonialTwo";
-import ServicePricing from "@/components/containers/service/ServicePricing";
-import ServiceFaq from "@/components/containers/service/ServiceFaq";
-import Trial from "@/components/containers/service/Trial";
-import WorkSec from "@/components/containers/service/WorkSec";
+import ServiceDetailsAbout from "@/components/containers/automotive/ServiceDetailsAbout";
+import WorkSec from "@/components/containers/automotive/WorkSec";
+import ServiceProject from "@/components/containers/automotive/ServiceProject";
+import ServicePricing from "@/components/containers/automotive/ServicePricing";
+import Testimonial from "@/components/containers/automotive/Testimonial";
+import ServiceFaq from "@/components/containers/automotive/ServiceFaq";
+import Trial from "@/components/containers/automotive/Trial";
+
 
 const AutomotiveService = () => {
   return (
@@ -18,7 +19,7 @@ const AutomotiveService = () => {
       <WorkSec />
       <ServiceProject />
       <ServicePricing />
-      <TestimonialTwo />
+      <Testimonial />
       <ServiceFaq />
       <Trial />
       <SponsorSlider />

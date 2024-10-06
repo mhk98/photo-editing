@@ -23,7 +23,7 @@ const ServiceDetailsAbout = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: serviceAbout[] }>('http://localhost:5000/api/v1/clippingPath');
+        const response = await axios.get<{ data: serviceAbout[] }>('http://localhost:5000/api/v1/automotive');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);

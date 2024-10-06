@@ -233,94 +233,104 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                                 <h5 className="h5">Main Services</h5>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="clipping-path-service">
                                   <Image priority src={sOne} alt="Services" />
                                   <span>Clipping path services</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="background-removal-service">
                                   <Image priority src={sTwo} alt="Services" />
-                                  <span>product color schem</span>
+                                  <span>Background Removal Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="image-retouching-service">
                                   <Image priority src={sThree} alt="Services" />
-                                  <span>photo retouch</span>
+                                  <span>Image Retouching Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="ghost-mannequin-service">
                                   <Image priority src={sFour} alt="Services" />
-                                  <span>Clipping path services</span>
+                                  <span>Ghost Mannequin service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="image-masking-service">
                                   <Image priority src={sFive} alt="Services" />
-                                  <span>photo colorize</span>
+                                  <span>Image Masking Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="shadow-creation-service">
                                   <Image priority src={sSix} alt="Services" />
-                                  <span>Clipping path services</span>
+                                  <span>Shadow Creation service</span>
                                 </Link>
                               </div>
                             </div>
                             <div className="mega-menu__single mega-menu__single-img">
-                              <div className="mega-menu__single-head">
+                              {/* <div className="mega-menu__single-head">
                                 <h5 className="h5">Photo editing</h5>
-                              </div>
+                              </div> */}
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="color-correction-service">
                                   <Image
                                     priority
                                     src={iconone}
                                     alt="Services"
                                   />
-                                  <span>convert any format</span>
+                                  <span>Color Correction Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="image-restoration-service">
                                   <Image
                                     priority
                                     src={icontwo}
                                     alt="Services"
                                   />
-                                  <span>photo enlarge</span>
+                                  <span>Image Restoration Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="image-manipulation-service">
                                   <Image
                                     priority
                                     src={iconthree}
                                     alt="Services"
                                   />
-                                  <span>image compress</span>
+                                  <span>Image Manipulation Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="automotive-service">
                                   <Image
                                     priority
                                     src={iconfour}
                                     alt="Services"
                                   />
-                                  <span>image crop</span>
+                                  <span>Automotive Service</span>
                                 </Link>
                               </div>
                               <div className="mega-menu__single-item">
-                                <Link href="service-details">
+                                <Link href="vector-service">
                                   <Image
                                     priority
                                     src={iconfive}
                                     alt="Services"
                                   />
-                                  <span>Special tools</span>
+                                  <span>Vector Service</span>
+                                </Link>
+                              </div>
+                              <div className="mega-menu__single-item">
+                                <Link href="reflection-creation-service">
+                                  <Image
+                                    priority
+                                    src={iconfive}
+                                    alt="Services"
+                                  />
+                                  <span>Reflection Creation Service</span>
                                 </Link>
                               </div>
                             </div>

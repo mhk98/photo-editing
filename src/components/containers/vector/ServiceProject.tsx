@@ -24,7 +24,7 @@ const ServiceProject = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/clippingPathProjects');
+        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/vectorProjects');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);

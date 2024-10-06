@@ -29,7 +29,7 @@ const Testimonial = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: ServiceTestimonial[] }>('http://localhost:5000/api/v1/clippingPathTestimonial');
+        const response = await axios.get<{ data: ServiceTestimonial[] }>('http://localhost:5000/api/v1/colorCorrectionTestimonial');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);

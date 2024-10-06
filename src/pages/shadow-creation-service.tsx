@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/Banner/CmnBanner";
 import SponsorSlider from "@/components/containers/home/SponsorSlider";
-import ServiceDetailsAbout from "@/components/containers/service/ServiceDetailsAbout";
-import ServiceProject from "@/components/containers/service/ServiceProject";
-import TestimonialTwo from "@/components/containers/home-two/TestimonialTwo";
-import ServicePricing from "@/components/containers/service/ServicePricing";
-import ServiceFaq from "@/components/containers/service/ServiceFaq";
-import Trial from "@/components/containers/service/Trial";
-import WorkSec from "@/components/containers/service/WorkSec";
+import ServiceDetailsAbout from "@/components/containers/shadowCreation/ServiceDetailsAbout";
+import WorkSec from "@/components/containers/shadowCreation/WorkSec";
+import ServiceProject from "@/components/containers/shadowCreation/ServiceProject";
+import ServicePricing from "@/components/containers/shadowCreation/ServicePricing";
+import Testimonial from "@/components/containers/shadowCreation/Testimonial";
+import ServiceFaq from "@/components/containers/shadowCreation/ServiceFaq";
+import Trial from "@/components/containers/shadowCreation/Trial";
+
 
 const ShadowCreationService = () => {
   return (
@@ -18,7 +19,7 @@ const ShadowCreationService = () => {
       <WorkSec />
       <ServiceProject />
       <ServicePricing />
-      <TestimonialTwo />
+      <Testimonial />
       <ServiceFaq />
       <Trial />
       <SponsorSlider />

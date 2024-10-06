@@ -22,7 +22,7 @@ const ServicePricing = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: ServicePricing[] }>('http://localhost:5000/api/v1/clippingPathPrice');
+        const response = await axios.get<{ data: ServicePricing[] }>('http://localhost:5000/api/v1/vectorPrice');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);

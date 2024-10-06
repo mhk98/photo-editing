@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/Banner/CmnBanner";
 import SponsorSlider from "@/components/containers/home/SponsorSlider";
-import ServiceDetailsAbout from "@/components/containers/service/ServiceDetailsAbout";
-import ServiceProject from "@/components/containers/service/ServiceProject";
-import TestimonialTwo from "@/components/containers/home-two/TestimonialTwo";
-import ServicePricing from "@/components/containers/service/ServicePricing";
-import ServiceFaq from "@/components/containers/service/ServiceFaq";
-import Trial from "@/components/containers/service/Trial";
-import WorkSec from "@/components/containers/service/WorkSec";
+import ServiceDetailsAbout from "@/components/containers/colorCorrection/ServiceDetailsAbout";
+import WorkSec from "@/components/containers/colorCorrection/WorkSec";
+import ServiceProject from "@/components/containers/colorCorrection/ServiceProject";
+import ServicePricing from "@/components/containers/colorCorrection/ServicePricing";
+import Testimonial from "@/components/containers/colorCorrection/Testimonial";
+import ServiceFaq from "@/components/containers/colorCorrection/ServiceFaq";
+import Trial from "@/components/containers/colorCorrection/Trial";
+
 
 const ColorCorrectionService = () => {
   return (
@@ -18,7 +19,7 @@ const ColorCorrectionService = () => {
       <WorkSec />
       <ServiceProject />
       <ServicePricing />
-      <TestimonialTwo />
+      <Testimonial />
       <ServiceFaq />
       <Trial />
       <SponsorSlider />

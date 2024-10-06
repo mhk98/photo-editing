@@ -18,7 +18,7 @@ const WorkSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/clippingPathHowItWorks');
+        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/reflectionCreationHowItWorks');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
