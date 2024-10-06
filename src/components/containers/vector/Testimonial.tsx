@@ -19,7 +19,7 @@ interface ServiceTestimonial {
   country: string
 }
 
-const TestimonialTwo = () => {
+const Testimonial = () => {
 
 
   const [data, setData] = useState<ServiceTestimonial[]>([]);
@@ -149,4 +149,4 @@ const TestimonialTwo = () => {
   );
 };
 
-export default TestimonialTwo;
+export default Testimonial;
