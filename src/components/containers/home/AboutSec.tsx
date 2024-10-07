@@ -37,8 +37,8 @@ const AboutSec = () => {
         
         {
           homeAboutData?.map((item) =>(
-            <div className="col-12 col-lg-5 col-xl-6">
-            <div key={item.id}
+            <div key={item.id} className="col-12 col-lg-5 col-xl-6">
+            <div 
               className="about-section__thumb "
               data-aos="fade-left"
               data-aos-duration="600"
