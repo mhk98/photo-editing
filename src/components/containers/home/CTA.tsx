@@ -45,7 +45,7 @@ const CTA = () => {
                   <div className="try-cta__thumb ">
                  {
                   data?.map((item) => (
-                    <Image priority 
+                    <Image key={item.id} priority 
                     src={`https://photo-editing-backend.onrender.com/${item.image}`}
                     width={450}
                     height={349}

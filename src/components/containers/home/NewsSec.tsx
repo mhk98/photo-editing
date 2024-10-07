@@ -99,7 +99,7 @@ const NewsSec = () => {
               >
                 {
                   data?.map((item) =>(
-                    <SwiperSlide>
+                    <SwiperSlide key={item.id}>
                   <div className="news__slider-item">
                     <div className="thumb">
                       <Link href="blog-single">

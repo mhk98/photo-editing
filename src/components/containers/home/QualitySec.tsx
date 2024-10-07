@@ -123,7 +123,7 @@ const QualitySec = () => {
         <div className="row justify-content-center">
          {
           data?.map((item) =>(
-            <div className="col-12 col-lg-10 col-xl-8">
+            <div key={item.id} className="col-12 col-lg-10 col-xl-8">
             <div
               className="quality-section__tab "
               data-aos="fade-up"

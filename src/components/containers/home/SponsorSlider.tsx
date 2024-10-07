@@ -56,7 +56,7 @@ const SponsorSlider = () => {
             {
                   data?.map((item)=>(
                    
-                    <Swiper
+                    <Swiper key={item.id}
                     slidesPerView={2}
                     spaceBetween={30}
                     slidesPerGroup={1}

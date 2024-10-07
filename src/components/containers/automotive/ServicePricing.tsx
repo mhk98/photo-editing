@@ -61,7 +61,7 @@ const ServicePricing = () => {
         <div className="row gaper">
           {
             data?.map((item)=>(
-              <div className="col-12 col-md-6 col-lg-6 col-xxl-3">
+              <div key={item.id} className="col-12 col-md-6 col-lg-6 col-xxl-3">
             <div
               className="pricing-two__single "
               data-aos="fade-up"

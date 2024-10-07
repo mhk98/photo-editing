@@ -47,7 +47,7 @@ const ChooseSec = () => {
           
           {
             data?.map((item)=>(
-              <div className="row gaper align-items-center">
+              <div key={item.id} className="row gaper align-items-center">
             <div className="col-12 col-lg-6">
               <div
                 className="choose-section__thumb "

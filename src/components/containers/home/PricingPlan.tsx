@@ -66,7 +66,7 @@ const PricingPlan = () => {
             
             {
               data?.map((item)=>(
-                <div className="pricing-section__inner">
+                <div key={item.id} className="pricing-section__inner">
               <div
                 className="pricing-section__inner-item "
                 data-aos="fade-up"

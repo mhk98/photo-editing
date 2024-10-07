@@ -111,7 +111,7 @@ const WorkSec = () => {
 
                     {
                       data?.map((item)=>(
-                        <Image  
+                        <Image  key={item.id}
               src={`https://photo-editing-backend.onrender.com/${item.image}`}
               width={635} 
               height={460} 

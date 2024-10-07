@@ -67,7 +67,7 @@ const Services = () => {
 
         {
           homeSliderData?.map((item)=>(
-<Swiper
+<Swiper key={item.id}
           slidesPerView={1}
           spaceBetween={30}
           slidesPerGroup={1}

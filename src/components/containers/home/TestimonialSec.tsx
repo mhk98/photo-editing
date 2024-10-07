@@ -104,7 +104,7 @@ const TestimonialSec = () => {
            
            {
             data?.map((item)=>(
-               <div className="testimonial__slider-wrapper">
+               <div key={item.id} className="testimonial__slider-wrapper">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
