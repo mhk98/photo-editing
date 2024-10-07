@@ -34,7 +34,7 @@ const QualitySec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeQuality[] }>('http://localhost:5000/api/v1/stunningQuality');
+        const response = await axios.get<{ data: HomeQuality[] }>('https://photo-editing-backend.onrender.com/api/v1/stunningQuality');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -140,7 +140,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/one-after.png"
-              src={`http://localhost:5000/${item.image1}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image1}`}
 
                         alt="Image one"
                       />
@@ -148,7 +148,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/one-before.png"
-              src={`http://localhost:5000/${item.image1}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image1}`}
 
                         alt="Image two"
                       />
@@ -166,7 +166,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/two-after.png"
-              src={`http://localhost:5000/${item.image2}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image2}`}
 
                         alt="Image one"
                       />
@@ -174,7 +174,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/two-before.png"
-              src={`http://localhost:5000/${item.image2}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image2}`}
 
                         alt="Image two"
                       />
@@ -192,7 +192,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/three-after.png"
-              src={`http://localhost:5000/${item.image3}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
 
                         alt="Image one"
                       />
@@ -200,7 +200,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/three-before.png"
-              src={`http://localhost:5000/${item.image3}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
 
                         alt="Image two"
                       />
@@ -218,7 +218,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/four-after.png"
-              src={`http://localhost:5000/${item.image4}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image4}`}
 
                         alt="Image one"
                       />
@@ -226,7 +226,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/four-before.png"
-              src={`http://localhost:5000/${item.image4}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image4}`}
 
                         alt="Image two"
                       />
@@ -244,7 +244,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/one-after.png"
-              src={`http://localhost:5000/${item.image5}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image5}`}
 
                         alt="Image one"
                       />
@@ -252,7 +252,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/one-before.png"
-              src={`http://localhost:5000/${item.image5}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image5}`}
 
                         alt="Image two"
                       />

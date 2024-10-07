@@ -32,7 +32,7 @@ const Services = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeSliderItem[] }>('http://localhost:5000/api/v1/homeSlider');
+        const response = await axios.get<{ data: HomeSliderItem[] }>('https://photo-editing-backend.onrender.com/api/v1/homeSlider');
         setHomeSliderData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -102,7 +102,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single on">
               <Image  
-              src={`http://localhost:5000/${item.image1}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image1}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -123,7 +123,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fi">
             <Image  
-              src={`http://localhost:5000/${item.image2}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image2}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -144,7 +144,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single tw">
             <Image  
-              src={`http://localhost:5000/${item.image3}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -165,7 +165,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single th">
             <Image  
-              src={`http://localhost:5000/${item.image4}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image4}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -186,7 +186,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fo">
             <Image  
-              src={`http://localhost:5000/${item.image5}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image5}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -207,7 +207,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single on">
             <Image  
-              src={`http://localhost:5000/${item.image6}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image6}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -228,7 +228,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fi">
             <Image  
-              src={`http://localhost:5000/${item.image7}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image7}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -249,7 +249,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single tw">
             <Image  
-              src={`http://localhost:5000/${item.image8}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image8}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -270,7 +270,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single th">
             <Image  
-              src={`http://localhost:5000/${item.image9}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image9}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -291,7 +291,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fo">
             <Image  
-              src={`http://localhost:5000/${item.image10}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image10}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -312,7 +312,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fo">
             <Image  
-              src={`http://localhost:5000/${item.image11}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image11}`}
               width={192} 
               height={192} 
               layout="responsive"  
@@ -333,7 +333,7 @@ const Services = () => {
           <SwiperSlide>
             <div className="services__slider-single fo">
             <Image  
-              src={`http://localhost:5000/${item.image12}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image12}`}
               width={192} 
               height={192} 
               layout="responsive"  

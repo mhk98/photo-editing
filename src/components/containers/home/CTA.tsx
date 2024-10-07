@@ -23,7 +23,7 @@ const CTA = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeCTA[] }>('http://localhost:5000/api/v1/removeImage');
+        const response = await axios.get<{ data: HomeCTA[] }>('https://photo-editing-backend.onrender.com/api/v1/removeImage');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -46,7 +46,7 @@ const CTA = () => {
                  {
                   data?.map((item) => (
                     <Image priority 
-                    src={`http://localhost:5000/${item.image}`}
+                    src={`https://photo-editing-backend.onrender.com/${item.image}`}
                     width={450}
                     height={349}
                     alt="Image" />
