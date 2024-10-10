@@ -4,10 +4,9 @@
   "private": true,
 "scripts": {
   "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "pm2-start": "pm2 start npm --name 'nextjs-app' -- start"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
 },
 
   "dependencies": {
