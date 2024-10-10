@@ -25,7 +25,7 @@ const HomeOneBanner: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeBannerItem[] }>('https://photo-editing-backend.onrender.com/api/v1/homeBanner');
+        const response = await axios.get<{ data: HomeBannerItem[] }>('http://82.112.226.90:5000/api/v1/homeBanner');
         setHomeBannerData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -84,14 +84,14 @@ const HomeOneBanner: React.FC = () => {
                     data-aos-delay="600"
                   >
                     <Image
-                      src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                      src={`http://82.112.226.90:5000/${item.image1}`}
                       alt="Image"
                       layout="responsive" // Adjust based on your layout needs
                       width={500} // Set appropriate width
                       height={300} // Set appropriate height
                     />
                     <Image
-                      src={`https://photo-editing-backend.onrender.com/${item.image2}`}
+                      src={`http://82.112.226.90:5000/${item.image2}`}
                       width={100} 
                       height={100} 
                      alt="Image" className="after" />
@@ -101,24 +101,24 @@ const HomeOneBanner: React.FC = () => {
             </div>
             <div className="banner__small-thumb">
               <Image 
-              src={`https://photo-editing-backend.onrender.com/${item.image2}`} 
+              src={`http://82.112.226.90:5000/${item.image2}`} 
               width={104} 
               height={104} 
               alt="Image" className="one" />
 
               <Image
-              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+              src={`http://82.112.226.90:5000/${item.image3}`}
               width={135} 
               height={137} 
             alt="Image" className="two" />
 
               <Image 
-              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+              src={`http://82.112.226.90:5000/${item.image3}`}
               width={180} 
               height={175} 
           alt="Image" className="three" />
               <Image 
-               src={`https://photo-editing-backend.onrender.com/${item.image4}`}
+               src={`http://82.112.226.90:5000/${item.image4}`}
                width={105} 
               height={100} 
                 alt="Image" className="four" />

@@ -26,7 +26,7 @@ const PricingPlan = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomePricing[] }>('https://photo-editing-backend.onrender.com/api/v1/pricingPlan');
+        const response = await axios.get<{ data: HomePricing[] }>('http://82.112.226.90:5000/api/v1/pricingPlan');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -76,7 +76,7 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                        src={`http://82.112.226.90:5000/${item.image1}`}
                         width={80}
                         height={80}
                         alt="Image" />
@@ -108,7 +108,7 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                        src={`http://82.112.226.90:5000/${item.image1}`}
                         width={80}
                         height={80}
                         alt="Image" />
@@ -140,7 +140,7 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                        src={`http://82.112.226.90:5000/${item.image1}`}
                         width={80}
                         height={80}
                         alt="Image" />
@@ -172,7 +172,7 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                        src={`http://82.112.226.90:5000/${item.image1}`}
                         width={80}
                         height={80}
                         alt="Image" />

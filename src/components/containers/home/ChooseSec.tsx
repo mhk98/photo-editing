@@ -30,7 +30,7 @@ const ChooseSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeChooseSec[] }>('https://photo-editing-backend.onrender.com/api/v1/whyChooseUs');
+        const response = await axios.get<{ data: HomeChooseSec[] }>('http://82.112.226.90:5000/api/v1/whyChooseUs');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -56,7 +56,7 @@ const ChooseSec = () => {
                 data-aos-delay="100"
               >
                <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+              src={`http://82.112.226.90:5000/${item.image1}`}
               width={635} 
               height={460} 
               layout="responsive"  
@@ -75,7 +75,7 @@ const ChooseSec = () => {
                  
 
                   <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image2}`}
+              src={`http://82.112.226.90:5000/${item.image2}`}
               width={635} 
               height={460} 
               layout="responsive"  
@@ -120,7 +120,7 @@ const ChooseSec = () => {
                   >
                     <div className="thumb">
                     <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+              src={`http://82.112.226.90:5000/${item.image3}`}
               width={635} 
               height={460} 
               layout="responsive"  
@@ -141,7 +141,7 @@ const ChooseSec = () => {
                   >
                     <div className="thumb">
                     <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image4}`}
+              src={`http://82.112.226.90:5000/${item.image4}`}
               width={635} 
               height={460} 
               layout="responsive"  
@@ -162,7 +162,7 @@ const ChooseSec = () => {
                   >
                     <div className="thumb">
                     <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image5}`}
+              src={`http://82.112.226.90:5000/${item.image5}`}
               width={635} 
               height={460} 
               layout="responsive"  

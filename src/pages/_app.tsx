@@ -17,8 +17,7 @@ import "aos/dist/aos.css";
 import "@/styles/main.scss";
 
 import type { AppProps } from "next/app";
-import { Provider } from "react-redux";
-import store from "@/app/store";
+
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -27,10 +26,10 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <Suspense>
-     <Provider store={store}>
+     
      <Component {...pageProps} />
 
-     </Provider>
+   
     </Suspense>
   );
 }

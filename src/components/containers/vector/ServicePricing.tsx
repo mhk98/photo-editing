@@ -22,7 +22,7 @@ const ServicePricing = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: ServicePricing[] }>('https://photo-editing-backend.onrender.com/api/v1/vectorPrice');
+        const response = await axios.get<{ data: ServicePricing[] }>('http://82.112.226.90:5000/api/v1/vectorPrice');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -76,7 +76,7 @@ const ServicePricing = () => {
                 </div>
                 <div className="thumb">
                 <Image    
-                    src={`https://photo-editing-backend.onrender.com/${item.image}`}
+                    src={`http://82.112.226.90:5000/${item.image}`}
                     width={50} 
                     height={50}  
                     alt="Image" />

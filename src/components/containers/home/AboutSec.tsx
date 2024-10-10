@@ -19,7 +19,7 @@ const AboutSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('https://photo-editing-backend.onrender.com/api/v1/aboutUs');
+        const response = await axios.get<{ data: HomeAbout[] }>('http://82.112.226.90:5000/api/v1/aboutUs');
         setHomeAboutData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -45,7 +45,7 @@ const AboutSec = () => {
               data-aos-delay="100"
             >
                <Image  
-              src={`https://photo-editing-backend.onrender.com/${item.image}`}
+              src={`http://82.112.226.90:5000/${item.image}`}
               width={635} 
               height={460} 
               layout="responsive"  
