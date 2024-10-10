@@ -2,12 +2,14 @@
   "name": "photodit",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "pm2-start": "pm2 start npm --name 'nextjs-app' -- start"
+},
+
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@types/isotope-layout": "^3.0.9",
