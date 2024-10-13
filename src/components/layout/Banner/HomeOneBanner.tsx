@@ -84,41 +84,41 @@ const HomeOneBanner: React.FC = () => {
                     data-aos-delay="600"
                   >
                     <Image
-                      src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                      src={`https://photo-editing-backend.onrender.com/${item.image3}`}
                       alt="Image"
                       layout="responsive" // Adjust based on your layout needs
                       width={500} // Set appropriate width
                       height={300} // Set appropriate height
                     />
-                    <Image
+                    {/* <Image
                       src={`https://photo-editing-backend.onrender.com/${item.image2}`}
                       width={100} 
                       height={100} 
-                     alt="Image" className="after" />
+                     alt="Image" className="after" /> */}
                   </div>
                 </div>
               </div>
             </div>
             <div className="banner__small-thumb">
               <Image 
-              src={`https://photo-editing-backend.onrender.com/${item.image2}`} 
+              src={`https://photo-editing-backend.onrender.com/${item.image5}`} 
               width={104} 
               height={104} 
               alt="Image" className="one" />
 
               <Image
-              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image4}`}
               width={135} 
               height={137} 
             alt="Image" className="two" />
 
               <Image 
-              src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+              src={`https://photo-editing-backend.onrender.com/${item.image1}`}
               width={180} 
               height={175} 
           alt="Image" className="three" />
               <Image 
-               src={`https://photo-editing-backend.onrender.com/${item.image4}`}
+               src={`https://photo-editing-backend.onrender.com/${item.image2}`}
                width={105} 
               height={100} 
                 alt="Image" className="four" />

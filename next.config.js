@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost'], // Add other domains as needed
+    domains: ['photo-editing-backend.onrender.com'],
+    // domains: ['localhost'],
   },
 }
 
