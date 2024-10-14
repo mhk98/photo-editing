@@ -122,7 +122,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <div className="nav__content">
                   <div className="nav__logo">
                     <Link href="/">
-                      <Image priority src={logoSrc} alt="Logo" />
+                      {/* <Image priority src={logoSrc} alt="Logo" /> */}
                     </Link>
                     <button
                       aria-label="open sidebar"

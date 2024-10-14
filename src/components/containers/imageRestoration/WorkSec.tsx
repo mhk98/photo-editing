@@ -18,7 +18,7 @@ const WorkSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('https://photo-editing-backend.onrender.com/api/v1/imageRestorationHowItWorks');
+        const response = await axios.get<{ data: HomeAbout[] }>('https://api.pixamoss.com/api/v1/imageRestorationHowItWorks');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -112,7 +112,7 @@ const WorkSec = () => {
                     {
                       data?.map((item)=>(
                         <Image  key={item.id}
-              src={`https://photo-editing-backend.onrender.com/${item.image}`}
+              src={`https://api.pixamoss.com/${item.image}`}
               width={635} 
               height={460} 
               layout="responsive"  

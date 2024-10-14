@@ -33,7 +33,7 @@ const SponsorSlider = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeSponsor[] }>('https://photo-editing-backend.onrender.com/api/v1/clients');
+        const response = await axios.get<{ data: HomeSponsor[] }>('https://api.pixamoss.com/api/v1/clients');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -87,7 +87,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                        src={`https://api.pixamoss.com/${item.image1}`}
                         width={231}
                         height={65}
                         alt="Image" />
@@ -96,7 +96,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image2}`}
+                        src={`https://api.pixamoss.com/${item.image2}`}
                         width={231}
                         height={65}
                         alt="Image" />
@@ -105,7 +105,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image3}`}
+                        src={`https://api.pixamoss.com/${item.image3}`}
                         width={231}
                         height={65}
                         alt="Image" />
@@ -114,7 +114,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image4}`}
+                        src={`https://api.pixamoss.com/${item.image4}`}
                         width={231}
                         height={65}
                         alt="Image" />
@@ -123,7 +123,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image5}`}
+                        src={`https://api.pixamoss.com/${item.image5}`}
                         width={231}
                         height={65}
                         alt="Image" />
@@ -132,7 +132,7 @@ const SponsorSlider = () => {
                     <SwiperSlide>
                       <div className="sponsor__slider-item">
                       <Image priority 
-                        src={`https://photo-editing-backend.onrender.com/${item.image6}`}
+                        src={`https://api.pixamoss.com/${item.image6}`}
                         width={231}
                         height={65}
                         alt="Image" />

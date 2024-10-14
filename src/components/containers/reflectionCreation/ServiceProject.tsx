@@ -24,7 +24,7 @@ const ServiceProject = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('https://photo-editing-backend.onrender.com/api/v1/reflectionCreationProjects');
+        const response = await axios.get<{ data: HomeAbout[] }>('https://api.pixamoss.com/api/v1/reflectionCreationProjects');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -97,7 +97,7 @@ const ServiceProject = () => {
                     <SwiperSlide key={item.id}>
                   <div  className="project-three__slider-item">
                     <Image    
-                    src={`https://photo-editing-backend.onrender.com/${item.image}`}
+                    src={`https://api.pixamoss.com/${item.image}`}
                     width={401} 
                     height={180}  
                     alt="Image" />

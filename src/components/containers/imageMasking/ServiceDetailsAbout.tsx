@@ -23,7 +23,7 @@ const ServiceDetailsAbout = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: serviceAbout[] }>('https://photo-editing-backend.onrender.com/api/v1/imageMasking');
+        const response = await axios.get<{ data: serviceAbout[] }>('https://api.pixamoss.com/api/v1/imageMasking');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -49,7 +49,7 @@ const ServiceDetailsAbout = () => {
                 <ReactCompareSlider
                   itemOne={
                     <ReactCompareSliderImage
-                    src={`https://photo-editing-backend.onrender.com/${item.image1}`}
+                    src={`https://api.pixamoss.com/${item.image1}`}
                     width={670} 
                     height={419} 
                       alt="Image one"
@@ -57,7 +57,7 @@ const ServiceDetailsAbout = () => {
                   }
                   itemTwo={
                     <ReactCompareSliderImage
-                    src={`https://photo-editing-backend.onrender.com/${item.image2}`}
+                    src={`https://api.pixamoss.com/${item.image2}`}
                     width={670} 
                     height={419} 
                       alt="Image two"

@@ -29,7 +29,7 @@ const Testimonial = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: ServiceTestimonial[] }>('https://photo-editing-backend.onrender.com/api/v1/imageMaskingTestimonial');
+        const response = await axios.get<{ data: ServiceTestimonial[] }>('https://api.pixamoss.com/api/v1/imageMaskingTestimonial');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -82,7 +82,7 @@ const Testimonial = () => {
               <div className="col-12 col-lg-4">
                 <div className="testimonnial-two__slider-item__thumb text-lg-end">
                 <Image    
-            src={`https://photo-editing-backend.onrender.com/${item.image}`}
+            src={`https://api.pixamoss.com/${item.image}`}
             width={420} 
             height={540}  
             alt="Image" />
@@ -112,7 +112,7 @@ const Testimonial = () => {
                     <div className="testimonnial-two__slider-item__content-meta">
                       <div className="thumb">
                       <Image    
-            src={`https://photo-editing-backend.onrender.com/${item.image}`}
+            src={`https://api.pixamoss.com/${item.image}`}
             width={78} 
             height={78}  
             alt="Image" />
