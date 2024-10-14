@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['photo-editing-backend.onrender.com'],
+    domains: ['api.pixamoss.com'],
     // domains: ['localhost'],
   },
 }
