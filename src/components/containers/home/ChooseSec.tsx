@@ -127,9 +127,10 @@ const ChooseSec = () => {
               alt="Image" />
                     </div>
                     <div className="content">
-                      <p className="h5">Automatic & Quick Results</p>
+                      <p className="h5">Time-Saving</p>
                       <p>
-                        Clipping Path Could be a process by which photo editor
+                      Outsourcing editing allows you to dedicate more time to other important aspects of your
+                      business.
                       </p>
                     </div>
                   </li>
@@ -148,9 +149,10 @@ const ChooseSec = () => {
               alt="Image" />
                     </div>
                     <div className="content">
-                      <p className="h5">Increase Resolution</p>
+                      <p className="h5">Professional Quality</p>
                       <p>
-                        Clipping Path Could be a process by which photo editor
+                      Access to skilled editors ensures that your images meet industry standards, which
+                      can lead to increased sales.
                       </p>
                     </div>
                   </li>
@@ -169,9 +171,10 @@ const ChooseSec = () => {
               alt="Image" />
                     </div>
                     <div className="content">
-                      <p className="h5">Retain Details</p>
+                      <p className="h5">Scalability</p>
                       <p>
-                        Clipping Path Could be a process by which photo editor
+                      As your business grows, these services can scale with you, accommodating more images
+                      without compromising quality.
                       </p>
                     </div>
                   </li>

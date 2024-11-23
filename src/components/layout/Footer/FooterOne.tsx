@@ -17,9 +17,11 @@ const FooterOne = () => {
               </div>
               <div className="content">
                 <p>
-                  We isolate images from their backgrounds using clipping paths
-                  or masks. We do it 100% hand-made. Clipping Factory isolates
-                  images from their backgrounds.
+                Pixamoss is a leading image production company that operates globally, offering a wide array of services
+                crucial for effective branding and communication. It is a key player in the image production sector,
+                specializing in high-quality visual content ranging from commercial photography to digital solutions,
+                which helps businesses convey their messages and strengthen their brand image.
+
                 </p>
               </div>
               <ul className="social">
@@ -121,14 +123,31 @@ const FooterOne = () => {
                       href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                       target="_blank"
                     >
-                      <i className="fa-solid fa-location-dot"></i>Vietnam
-                      Office: #5 Nguyentrai street, Vinh city, Vietnam{" "}
+                      
+                      <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
+                        
+                      <i className="fa-solid fa-location-dot"></i> USA OFFICE:</span>
+18230 WEXFORD, JAMAICA, NEW YORK 11432</p>
+                    <p></p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                      target="_blank"
+                    >
+                      
+                      <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
+                        
+                      <i className="fa-solid fa-location-dot"></i> Production House:</span>
+                      68, Green Road, Dhaka- 1205, Bangladesh</p>
+                    <p></p>
                     </Link>
                   </li>
                   <li>
                     <Link href="mailto:company.info@mail.com">
                       <i className="fa-solid fa-envelope"></i>
-                      company.info@mail.com
+                      info.pixamoss@gmail.com
                     </Link>
                   </li>
                   <li>

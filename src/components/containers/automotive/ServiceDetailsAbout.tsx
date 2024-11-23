@@ -77,7 +77,7 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                professional clipping path
+                Professional Automotive
               </p>
               <h2
                 className="h2 title "
@@ -85,22 +85,57 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photodit
-              </h2>
+                Automotive Service
+              </h2><p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.79 Only</b>
+              </p>
+
               <div
                 className="paragraph "
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                <p className="fw-5">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5">
+                At Pixamoss, we believe that every individual possesses the potential to create a significant impact with
+the right headshot. That's why we proudly offer our Professional Headshot Retouching Service, designed
+to enhance your unique features while preserving a natural look that truly represents you. </p>
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                >
+                Our skilled team of photo editors employs advanced techniques to meticulously remove blemishes,
+correct skin tones, and highlight your most flattering attributes. We recognize that your headshot is not
+just a photograph; it’s a vital representation of your personal and professional brand. This understanding
+drives us to invest the time and care needed to ensure your image is nothing short of perfect
                 </p>
-                <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits, so you can get back to the work that needs you.
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                >
+                With our Professional Headshot Retouching Service, you'll gain the confidence to make a lasting
+impression on potential clients, employers, and social media connections alike. Trust us to elevate your
+personal brand and help you stand out in today’s competitive landscape.
+
+                </p>
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                >
+                Don’t wait to make your mark! Contact us today to discover more about our services and how we can
+                assist you in making a powerful impact. Your journey to a remarkable headshot starts here!
                 </p>
               </div>
               <div className="cta__group justify-content-start">

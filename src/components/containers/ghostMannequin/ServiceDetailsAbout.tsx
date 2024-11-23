@@ -77,7 +77,7 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                professional clipping path
+                professional Ghost Mannequin
               </p>
               <h2
                 className="h2 title "
@@ -85,7 +85,7 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photodit
+                Ghost Mannequin Service
               </h2>
               <div
                 className="paragraph "
@@ -94,8 +94,9 @@ const ServiceDetailsAbout = () => {
                 data-aos-delay="100"
               >
                 <p className="fw-5">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                The <b>Ghost Mannequin Service</b> is an innovative technique used in clothing photography that enhances
+product images by creating a <b>3D effect</b>. This service is particularly beneficial for e-commerce businesses
+looking to showcase their apparel in a visually appealing manner.
                 </p>
                 <p>
                   Because a quick product shoot can easily turn into a week or
@@ -103,6 +104,121 @@ const ServiceDetailsAbout = () => {
                   the edits, so you can get back to the work that needs you.
                 </p>
               </div>
+
+              <div className="mt-5">
+             <h3
+                className="h3 title "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                Types of ghost mannequin
+              </h3>
+            
+            <div>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>3D Ghost Mannequin Effect</b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.59 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+              By removing the mannequin, the images gain a three-dimensional look, which can significantly improve
+the visual appeal of the clothing.
+
+                </p>
+                
+              </div>
+            </div>
+
+            <div className="mt-5">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>Neck Joint Manipulation
+                </b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.79 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+                Our ghost mannequin service provides clean and professional-looking clothing photos by removing
+                mannequins, ensuring brand names are visible, and expertly editing neckline joints.
+                </p>
+            
+              </div>
+            </div>
+            <div className="mt-5">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>Symmetry Ghost Mannequin Service</b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $1.49 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+                The service also emphasizes achieving <b>100% symmetry </b> in the images. This means that the left and right
+                sides of the clothing appear identical, which is essential for a polished and professional presentation.
+
+                </p>
+                
+              </div>
+            </div>
+             </div>
               <div className="cta__group justify-content-start">
                 <Link href="contact-us" className="btn btn--primary">
                   Get Started

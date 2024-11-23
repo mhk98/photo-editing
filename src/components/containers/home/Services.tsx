@@ -52,9 +52,9 @@ const Services = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <p className="h6 sub-title">photodit&apos;s service</p>
+              <p className="h6 sub-title">Get Ready to Wow</p>
               <h2 className="h2 title">
-                Clipping Path Services for professional image
+              Pixamoss’s Top-Rated Photo Editing Services
               </h2>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Clipping path service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
@@ -129,13 +129,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Background Removal Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.49 Only</span>
                   </p>
                 </div>
               </div>
@@ -150,13 +150,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Photo Retouching Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.79 Only</span>
                   </p>
                 </div>
               </div>
@@ -171,13 +171,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Ghost Mannequin Service </h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.59 Only</span>
                   </p>
                 </div>
               </div>
@@ -192,13 +192,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Image Masking Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.79 Only</span>
                   </p>
                 </div>
               </div>
@@ -213,7 +213,7 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Color Correction Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
@@ -297,13 +297,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Image Manipulation Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$2.49 Only</span>
                   </p>
                 </div>
               </div>
@@ -318,13 +318,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Headshot Retouching Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.79 Only</span>
                   </p>
                 </div>
               </div>
@@ -339,13 +339,13 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Jewelry Retouching Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$02.49 Only</span>
                   </p>
                 </div>
               </div>

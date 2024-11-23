@@ -50,7 +50,7 @@ const HomeOneBanner: React.FC = () => {
                       data-aos-duration="600"
                       data-aos-delay="100"
                     >
-                      Get pixel-perfect image editing services
+                      Edit Like a Pro: Unbeatable Image Quality Guaranteed
                     </p>
                     <h1
                       className="h1"
@@ -58,7 +58,7 @@ const HomeOneBanner: React.FC = () => {
                       data-aos-duration="600"
                       data-aos-delay="100"
                     >
-                      Photo Editing & Graphic Design Made for Everyone
+                      Snap, Edit, Repeat: The Ultimate Photo Editing Solution
                     </h1>
                     <div
                       className="cta__group"

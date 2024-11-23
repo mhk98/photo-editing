@@ -62,7 +62,7 @@ const TestimonialSec = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                customer testimonial
+                Client Testimonials
               </p>
               <h2
                 className="h2 title "
@@ -70,7 +70,7 @@ const TestimonialSec = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                They love us. You will too.
+              Why Are They Obsessed with Us? Let's Find Out
               </h2>
               <div
                 className="paragraph "
@@ -79,9 +79,9 @@ const TestimonialSec = () => {
                 data-aos-delay="100"
               >
                 <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits,
+                Pixamoss seems to be an excellent choice for anyone in need of reliable and high-quality image editing
+services. Their combination of speed, quality, and customer service sets them apart in the industry. If
+you're considering image editing, Pixamoss might be the perfect partner for your needs!
                 </p>
               </div>
               <div className="testimonial__content-cta section__content-cta">
@@ -148,9 +148,9 @@ const TestimonialSec = () => {
                     </div>
                     <div className="content">
                       <q className="h4">
-                        Welcome to our digital agency We specialize in helping
-                        business most like yours succeed online. From website
-                        design and development to digital marketing agency
+                      Pixamoss is known for its incredibly quick turnaround times, ensuring that clients receive
+                      their edited images promptly. This efficiency is crucial for businesses that need to keep up with
+                      fast-paced marketing demands.
                       </q>
                     </div>
                     <hr />
@@ -163,7 +163,7 @@ const TestimonialSec = () => {
                         alt="Image" />
                       </div>
                       <div className="meta__content">
-                        <p className="h5">Delores Olivo</p>
+                        <p className="h5">Lukas Tylor</p>
                         <p>Senior Technology Editor</p>
                       </div>
                     </div>
@@ -176,9 +176,10 @@ const TestimonialSec = () => {
                     </div>
                     <div className="content">
                       <q className="h4">
-                        Welcome to our digital agency We specialize in helping
-                        business most like yours succeed online. From website
-                        design and development to digital marketing agency
+                      The quality of the edits provided by Pixamoss is outstanding. Their attention to detail
+and commitment to excellence help elevate the visual appeal of products, making them more
+marketable.
+
                       </q>
                     </div>
                     <hr />
@@ -191,7 +192,7 @@ const TestimonialSec = () => {
                         alt="Image" />
                       </div>
                       <div className="meta__content">
-                        <p className="h5">endru kolins</p>
+                        <p className="h5">Juliana Almeida</p>
                         <p>CEO</p>
                       </div>
                     </div>
@@ -204,9 +205,9 @@ const TestimonialSec = () => {
                     </div>
                     <div className="content">
                       <q className="h4">
-                        Welcome to our digital agency We specialize in helping
-                        business most like yours succeed online. From website
-                        design and development to digital marketing agency
+                      The team at Pixamoss is not only professional but also very friendly, making the entire
+process smooth and enjoyable. Their approachable nature helps clients feel comfortable and supported
+throughout the editing process.
                       </q>
                     </div>
                     <hr />
@@ -219,7 +220,7 @@ const TestimonialSec = () => {
                         alt="Image" />
                       </div>
                       <div className="meta__content">
-                        <p className="h5">Delores Olivo</p>
+                        <p className="h5">Peter Gilbert</p>
                         <p>Content & Marketing Coordinator</p>
                       </div>
                     </div>

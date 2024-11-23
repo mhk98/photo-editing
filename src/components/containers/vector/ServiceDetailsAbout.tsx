@@ -77,7 +77,7 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                professional clipping path
+                Professional Vector
               </p>
               <h2
                 className="h2 title "
@@ -85,23 +85,41 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photodit
-              </h2>
+                Vector Service
+              </h2><p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $2.49 Only</b>
+              </p>
+
               <div
                 className="paragraph "
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                <p className="fw-5">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5">
+                Pixamoss specializes in enhancing the visual appeal of jewelry products through high-quality retouching
+services. Their expert team employs advanced techniques to remove imperfections, adjust colors,
+enhance details, and add shine to create polished and flawless images.  </p>
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                >
+               In addition to standard retouching, they offer customized options such as background removal, resizing,
+and cropping to meet specific marketing needs. With affordable pricing and quick turnaround times,
+Pixamoss helps clients stand out in the competitive jewelry market while building credibility with
+potential customers. Contact them to showcase your products in the best possible light.
                 </p>
-                <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits, so you can get back to the work that needs you.
-                </p>
+          
               </div>
               <div className="cta__group justify-content-start">
                 <Link href="contact-us" className="btn btn--primary">

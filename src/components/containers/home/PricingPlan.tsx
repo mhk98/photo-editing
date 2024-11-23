@@ -48,7 +48,7 @@ const PricingPlan = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                attractive pricing plan
+                Unbeatable Pricing, Unmatched Value
               </p>
               <h2
                 className="h2 title "
@@ -56,7 +56,7 @@ const PricingPlan = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Stress less with simple pricing and pixel perfect photo edits
+                Cut Through the Hassle Simple Pricing for Your Photo Editing Needs
               </h2>
             </div>
           </div>
@@ -82,9 +82,11 @@ const PricingPlan = () => {
                         alt="Image" />
                   </div>
                   <div className="content">
-                    <h4 className="h4">Clipping path</h4>
+                    <h4 className="h4">Clipping Path</h4>
                     <p>
-                      Carefully hand-drawn clipping paths for crisp, clean photo
+                    Pixamoss provides top-notch clipping path services for precise and high-quality selections.
+$0.39
+
                     </p>
                   </div>
                 </div>
@@ -108,15 +110,16 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://api.pixamoss.com/${item.image1}`}
+                        src={`https://api.pixamoss.com/${item.image2}`}
                         width={80}
                         height={80}
                         alt="Image" />
                   </div>
                   <div className="content">
-                    <h4 className="h4">background removal</h4>
+                    <h4 className="h4">Background Removal</h4>
                     <p>
-                      Carefully hand-drawn clipping paths for crisp, clean photo
+                    Pixamoss is a reliable online photo editing service specializing in background
+                    removal for clean, professional images. $0.49
                     </p>
                   </div>
                 </div>
@@ -140,15 +143,16 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://api.pixamoss.com/${item.image1}`}
+                        src={`https://api.pixamoss.com/${item.image3}`}
                         width={80}
                         height={80}
                         alt="Image" />
                   </div>
                   <div className="content">
-                    <h4 className="h4">image masking</h4>
+                    <h4 className="h4">Photo Retouching</h4>
                     <p>
-                      Carefully hand-drawn clipping paths for crisp, clean photo
+                    Pixamoss offers professional photo retouching services for ecommerce, fashion, and
+                    product photography. $0.69
                     </p>
                   </div>
                 </div>
@@ -172,15 +176,16 @@ const PricingPlan = () => {
                 <div className="pricing__meta">
                   <div className="thumb">
                   <Image 
-                        src={`https://api.pixamoss.com/${item.image1}`}
+                        src={`https://api.pixamoss.com/${item.image4}`}
                         width={80}
                         height={80}
                         alt="Image" />
                   </div>
                   <div className="content">
-                    <h4 className="h4">photo retouching</h4>
+                    <h4 className="h4">Ghost Mannequin</h4>
                     <p>
-                      Carefully hand-drawn clipping paths for crisp, clean photo
+                    Pixamoss is an expert in ghost mannequin for apparel product photography. $0.79
+                    10% discount on bulk order.
                     </p>
                   </div>
                 </div>

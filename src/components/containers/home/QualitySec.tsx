@@ -16,6 +16,11 @@ interface HomeQuality {
   image3: string;
   image4: string;
   image5: string;
+  image6: string;
+  image7: string;
+  image8: string;
+  image9: string;
+  image10: string;
 }
 
 const QualitySec = () => {
@@ -148,7 +153,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/one-before.png"
-              src={`https://api.pixamoss.com/${item.image1}`}
+              src={`https://api.pixamoss.com/${item.image2}`}
 
                         alt="Image two"
                       />
@@ -166,7 +171,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/two-after.png"
-              src={`https://api.pixamoss.com/${item.image2}`}
+              src={`https://api.pixamoss.com/${item.image3}`}
 
                         alt="Image one"
                       />
@@ -174,7 +179,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/two-before.png"
-              src={`https://api.pixamoss.com/${item.image2}`}
+              src={`https://api.pixamoss.com/${item.image4}`}
 
                         alt="Image two"
                       />
@@ -192,7 +197,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/three-after.png"
-              src={`https://api.pixamoss.com/${item.image3}`}
+              src={`https://api.pixamoss.com/${item.image5}`}
 
                         alt="Image one"
                       />
@@ -200,7 +205,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/three-before.png"
-              src={`https://api.pixamoss.com/${item.image3}`}
+              src={`https://api.pixamoss.com/${item.image6}`}
 
                         alt="Image two"
                       />
@@ -218,7 +223,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/four-after.png"
-              src={`https://api.pixamoss.com/${item.image4}`}
+              src={`https://api.pixamoss.com/${item.image7}`}
 
                         alt="Image one"
                       />
@@ -226,7 +231,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/four-before.png"
-              src={`https://api.pixamoss.com/${item.image4}`}
+              src={`https://api.pixamoss.com/${item.image8}`}
 
                         alt="Image two"
                       />
@@ -244,7 +249,7 @@ const QualitySec = () => {
                     itemOne={
                       <ReactCompareSliderImage
                         // src="/images/after/one-after.png"
-              src={`https://api.pixamoss.com/${item.image5}`}
+              src={`https://api.pixamoss.com/${item.image9}`}
 
                         alt="Image one"
                       />
@@ -252,7 +257,7 @@ const QualitySec = () => {
                     itemTwo={
                       <ReactCompareSliderImage
                         // src="/images/after/one-before.png"
-              src={`https://api.pixamoss.com/${item.image5}`}
+              src={`https://api.pixamoss.com/${item.image10}`}
 
                         alt="Image two"
                       />

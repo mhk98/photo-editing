@@ -77,7 +77,7 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                professional clipping path
+                Professional Image Manipulation
               </p>
               <h2
                 className="h2 title "
@@ -85,8 +85,16 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photodit
+                Image Manipulation Service
               </h2>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.59 Only</b>
+              </p>
               <div
                 className="paragraph "
                 data-aos="fade-up"
@@ -94,14 +102,15 @@ const ServiceDetailsAbout = () => {
                 data-aos-delay="100"
               >
                 <p className="fw-5">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                Pixamoss <b>Creative Photo Manipulation Service</b> is an innovative and artistic approach to photo editing,
+requiring both a keen eye for detail and strong creative thinking skills. Skilled manipulators analyze
+photos deeply, generating unique ideas that elevate the ordinary into extraordinary visuals. This service
+goes beyond mere aesthetics; it focuses on conveying impactful messages and emotions through each
+image. Whether for personal projects or marketing campaigns, we transform your ideas into captivating
+images that resonate with viewers. Ultimately, our aim is to inspire and engage while bringing your
+imagination to life through innovative photo manipulation.
                 </p>
-                <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits, so you can get back to the work that needs you.
-                </p>
+               
               </div>
               <div className="cta__group justify-content-start">
                 <Link href="contact-us" className="btn btn--primary">

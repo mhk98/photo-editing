@@ -77,7 +77,8 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                professional clipping path
+                professional Shadow Creation
+
               </p>
               <h2
                 className="h2 title "
@@ -85,7 +86,8 @@ const ServiceDetailsAbout = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photodit
+        Shadow Creation Service
+
               </h2>
               <div
                 className="paragraph "
@@ -94,15 +96,130 @@ const ServiceDetailsAbout = () => {
                 data-aos-delay="100"
               >
                 <p className="fw-5">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                To achieve these shadow effects, you can utilize our <b>Photoshop shadow effect service</b>. This service
+provides you with the tools and expertise needed to create stunning product images that stand out in
+the competitive online marketplace. Whether you need drop shadows, reflection shadows, or natural
+shadows, we have the right solutions for you.
                 </p>
-                <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits, so you can get back to the work that needs you.
-                </p>
+                
               </div>
+
+              <div className="mt-5">
+             <h3
+                className="h3 title "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                Types of Shadows
+              </h3>
+            
+            <div>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>Drop Shadow</b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.59 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+              This shadow type creates a sense of depth by placing a shadow behind the object, making it appear as if
+              it is lifted off the background. This effect can add dimension and realism to your product images.
+
+                </p>
+                
+              </div>
+            </div>
+
+            <div className="mt-5">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>Natural Shadow
+                </b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $0.99 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+              Utilizing shadows that mimic real-life lighting conditions can make your images look more authentic. This
+approach helps in creating a lifelike representation of the product, making it more relatable to potential
+buyers.
+
+                </p>
+            
+              </div>
+            </div>
+            <div className="mt-5">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              >
+                <b>Reflection Shadow</b>
+              </p>
+              <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+              style={{color:"#2b1b9a"}}
+              >
+                <b>Starting from $1.20 Only</b>
+              </p>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p 
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                className="fw-5 mt-3">
+              This technique involves creating a mirrored shadow effect beneath the product, simulating a reflective
+              surface. It can enhance the visual appeal and give a sophisticated look to your images.
+
+                </p>
+                
+              </div>
+            </div>
+             </div>
               <div className="cta__group justify-content-start">
                 <Link href="contact-us" className="btn btn--primary">
                   Get Started

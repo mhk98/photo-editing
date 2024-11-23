@@ -44,7 +44,7 @@ const WorkSec = () => {
                         data-aos-duration="600"
                         data-aos-delay="100"
                       >
-                        how we work
+                        Overview of the Image Editing Process
                       </p>
                       <h2
                         className="h2 title "
@@ -52,7 +52,7 @@ const WorkSec = () => {
                         data-aos-duration="600"
                         data-aos-delay="100"
                       >
-                        How it works
+                        Here’s a clear breakdown of how the Pixamoss image editing service works:
                       </h2>
                     </div>
                     <ul>
@@ -65,9 +65,8 @@ const WorkSec = () => {
                         <div className="thumb">
                           <span>01</span>
                         </div>
-                        <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                        <p> <span style={{fontWeight:"bold"}}>Submission of Images: </span>
+                        You start by sending the images that need editing to the service.
                         </p>
                       </li>
                       <li
@@ -79,9 +78,9 @@ const WorkSec = () => {
                         <div className="thumb">
                           <span>02</span>
                         </div>
-                        <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                        <p> <span style={{fontWeight:"bold"}}>Confirmation Email: </span>
+                        Once your images are received, you will get a confirmation email acknowledging
+that your project has been received.
                         </p>
                       </li>
                       <li
@@ -93,11 +92,40 @@ const WorkSec = () => {
                         <div className="thumb">
                           <span>03</span>
                         </div>
-                        <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                        <p> <span style={{fontWeight:"bold"}}>Editing Process: </span>
+                        The editing team will work on your images as quickly as possible to ensure timely
+                        delivery
                         </p>
                       </li>
+                      <li
+                        className=""
+                        data-aos="fade-up"
+                        data-aos-duration="600"
+                        data-aos-delay="100"
+                      >
+                        <div className="thumb">
+                          <span>04</span>
+                        </div>
+                        <p> <span style={{fontWeight:"bold"}}>Download Link: </span>
+                        You start by sending the images that
+                        need editing to the service
+                        </p>
+                      </li>
+                      <li
+                        className=""
+                        data-aos="fade-up"
+                        data-aos-duration="600"
+                        data-aos-delay="100"
+                      >
+                        <div className="thumb">
+                          <span>05</span>
+                        </div>
+                        <p> <span style={{fontWeight:"bold"}}>Payment Schedule: </span>
+                        Payments are due monthly, specifically between the 1st and 15th of each month.
+If you have any further questions or need assistance with the process, feel free to ask!
+                        </p>
+                      </li>
+                    
                     </ul>
                   </div>
                 </div>

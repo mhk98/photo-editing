@@ -151,58 +151,14 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       </a>
                     </div>
                     <ul className="nav__menu-items">
-                      <li className="nav__menu-item nav__menu-item--dropdown">
-                        <button
-                          aria-label="dropdown menu container"
-                          className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
-                            "home"
-                          )}`}
-                          onClick={() => handleSubmenu("home")}
+                    
+                      <li className="nav__menu-item">
+                        <Link
+                          className="nav__menu-link hide-nav"
+                          href="/"
                         >
                           Home
-                        </button>
-                        <div
-                          className={`nav__dropdown nav__dropdown--alt ${isSubMenuOpen(
-                            "home"
-                          )}`}
-                        >
-                          <ul>
-                            <li>
-                              <Link
-                                className="nav__dropdown-item hide-nav"
-                                href="/"
-                              >
-                                Home 01
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                className="nav__dropdown-item hide-nav"
-                                href="index-two"
-                              >
-                                Home 02
-                              </Link>
-                            </li>
-                          </ul>
-                          <ul>
-                            <li>
-                              <Link
-                                className="nav__dropdown-item hide-nav"
-                                href="index-dark"
-                              >
-                                Home 01 Dark
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                className="nav__dropdown-item hide-nav"
-                                href="index-two-dark"
-                              >
-                                Home 02 Dark
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
+                        </Link>
                       </li>
                       <li className="nav__menu-item">
                         <Link
@@ -355,7 +311,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </div>
                         </div>
                       </li>
-                      <li className="nav__menu-item nav__menu-item--dropdown">
+                      {/* <li className="nav__menu-item nav__menu-item--dropdown">
                         <button
                           aria-label="dropdown menu container"
                           className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
@@ -425,8 +381,34 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                         </ul>
+                      </li> */}
+
+                      <li className="nav__menu-item">
+                        <Link
+                          className="nav__menu-link hide-nav"
+                          href="portfolio"
+                        >
+                          Portfolio
+                        </Link>
                       </li>
-                      <li className="nav__menu-item nav__menu-item--dropdown">
+
+                      <li className="nav__menu-item">
+                        <Link
+                          className="nav__menu-link hide-nav"
+                          href="pricing"
+                        >
+                          Pricing
+                        </Link>
+                      </li>
+                      <li className="nav__menu-item">
+                        <Link
+                          className="nav__menu-link hide-nav"
+                          href="blog"
+                        >
+                          Blog
+                        </Link>
+                      </li>
+                      {/* <li className="nav__menu-item nav__menu-item--dropdown">
                         <button
                           aria-label="dropdown menu container"
                           className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
@@ -456,7 +438,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"

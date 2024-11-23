@@ -75,7 +75,7 @@ const AboutSec = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Edit your photo in seconds with photoedit
+               Instant Image Makeover: Pixamoss Revamps Your Photos in Minutes
               </h2>
               <div
                 className="paragraph "
@@ -84,13 +84,14 @@ const AboutSec = () => {
                 data-aos-delay="100"
               >
                 <p className="fw-5 ">
-                  Image editing services for ecommerce businesses and pros, from
-                  product photographers to Amazon sellers to global brands.
+                Image editing is essential for e-commerce businesses as it enhances product visuals, significantly
+impacting sales and customer engagement. Professional image editing services save time and improve
+product appeal, catering to product photographers, Amazon sellers, and global brands. 
                 </p>
                 <p>
-                  Because a quick product shoot can easily turn into a week or
-                  more of editing and formatting your images. Let us look after
-                  the edits, so you can get back to the work that needs you.
+                Benefits of using these services include time savings, professional quality that meets industry standards,
+                and scalability as businesses grow. Overall, investing in professional image editing is a strategic move for e-commerce businesses to enhance product presentation and boost sales, allowing entrepreneurs to
+                concentrate on business growth.
                 </p>
               </div>
               <div

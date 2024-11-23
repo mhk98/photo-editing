@@ -7,6 +7,7 @@ import FeatureTwoSec from "@/components/containers/home-two/FeatureTwoSec";
 import Faq from "@/components/containers/home-two/Faq";
 import ProjectSec from "@/components/containers/home-two/ProjectSec";
 import PortfolioSponsorSlider from "@/components/containers/portfolio/PortfolioSponsorSlider";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = () => {
       <PortfolioMain />
       <PortfolioPopup />
       <FeatureTwoSec />
-      <Faq />
+      <AboutFaq />
       <ProjectSec />
       <PortfolioSponsorSlider />
     </Layout>

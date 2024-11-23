@@ -13,7 +13,7 @@ const AboutBanner = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              something about us
+             About Us
             </h2>
           </div>
           <div className="col-12 col-md-4">

@@ -129,15 +129,6 @@ const SponsorSlider = () => {
                         alt="Image" />
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                      <Image priority 
-                        src={`https://api.pixamoss.com/${item.image6}`}
-                        width={231}
-                        height={65}
-                        alt="Image" />
-                      </div>
-                    </SwiperSlide>
                   
                   </Swiper>
                   ))
