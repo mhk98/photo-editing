@@ -23,6 +23,7 @@ interface HomeQuality {
   image10: string;
 }
 
+
 const QualitySec = () => {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
 
@@ -34,7 +35,7 @@ const QualitySec = () => {
 
   const [data, setData] = useState<HomeQuality[]>([]);
 
-  console.log(data)
+  // console.log(data)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -69,7 +70,7 @@ const QualitySec = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                We&apos;ve removed these tricky backgrounds
+                We&apos;ve removed these tricky background
               </h2>
             </div>
           </div>
