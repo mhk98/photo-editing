@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ctaThumb from "public/images/cta-thumb.png";
+import ctaThumb from "public/images/about-us/upload.jpeg";
 import upload from "public/images/upload.png";
 
 const AboutCta = () => {

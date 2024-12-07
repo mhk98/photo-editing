@@ -3,12 +3,13 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/sponsor/one.png";
-import two from "public/images/sponsor/two.png";
-import three from "public/images/sponsor/three.png";
-import four from "public/images/sponsor/four.png";
-import five from "public/images/sponsor/five.png";
-import six from "public/images/sponsor/six.png";
+import brand1 from "public/images/about-us/Energie Brand- Pixamoss.png";
+import brand2 from "public/images/about-us/Garage Brand- Pixamoss.png";
+import brand3 from "public/images/about-us/Lacoste Brand- Pixamoss.png";
+import brand4 from "public/images/about-us/Mango Brand- Pixamoss.png";
+import brand5 from "public/images/about-us/Mooks Brand- Pixamoss.png";
+
+
 
 const AboutSponsor = () => {
   return (
@@ -64,62 +65,27 @@ const AboutSponsor = () => {
                     >
                       <SwiperSlide>
                         <div className="sponsor__slider-item">
-                          <Image src={one} priority alt="Image" />
+                          <Image src={brand1} priority alt="Image" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="sponsor__slider-item">
-                          <Image src={two} priority alt="Image" />
+                          <Image src={brand2} priority alt="Image" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="sponsor__slider-item">
-                          <Image src={three} priority alt="Image" />
+                          <Image src={brand3} priority alt="Image" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="sponsor__slider-item">
-                          <Image src={four} priority alt="Image" />
+                          <Image src={brand4} priority alt="Image" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="sponsor__slider-item">
-                          <Image src={five} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={six} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={one} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={two} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={three} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={four} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={five} priority alt="Image" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="sponsor__slider-item">
-                          <Image src={six} priority alt="Image" />
+                          <Image src={brand5} priority alt="Image" />
                         </div>
                       </SwiperSlide>
                     </Swiper>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Thumb from "public/images/about-thumb.png";
+import cover3 from "public/images/about-us/Pixamoss About Us Cover 3.jpg";
 
 const AboutMain = () => {
   return (
@@ -15,7 +15,7 @@ const AboutMain = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <Image src={Thumb} alt="Image" />
+              <Image src={cover3} alt="Image" />
               <div className="about-section__thumb-content">
                 <p className="h5">
                   Starting at 25¢ / <span>per image</span>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import YoutubeEmbed from "@/components/layout/youtube/YoutubeEmbed";
-import Bg from "public/images/video-modal-bg.png";
+import Bg from "public/images/video-modal.jpeg";
 
 const PortfolioPopup = () => {
   const [videoActive, setVideoActive] = useState(false);
@@ -13,7 +13,7 @@ const PortfolioPopup = () => {
       data-aos-delay="100"
     >
       <Image src={Bg} alt="Image" />
-      <div className="video-wrap">
+      {/* <div className="video-wrap">
         <a
           target="_blank"
           title="video Player"
@@ -22,7 +22,7 @@ const PortfolioPopup = () => {
         >
           <i className="icon-play"></i>
         </a>
-      </div>
+      </div> */}
       <div
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}
         onClick={() => setVideoActive(false)}

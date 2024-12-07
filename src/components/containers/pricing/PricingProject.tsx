@@ -5,6 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import Car from "public/images/project/car.png";
+import mostClippingPath from "public/images/pricing1/Our most-clipping-path-service.jpg";
+import mostGhostMannequin from "public/images/pricing1/Our most-Ghost-Mannequin.jpg";
+import mostImageRetouching from "public/images/pricing1/Our most-image retouching.jpg";
 
 const PricingProject = () => {
   return (
@@ -64,10 +67,10 @@ const PricingProject = () => {
                     <div className="recent-project__slider-item">
                       <div className="recent-project__slider-item-inner">
                         <div className="thumb">
-                          <Image src={Car} alt="Image" />
+                          <Image src={mostClippingPath} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Multi-clipping Path</h2>
+                          <h2 className="h2 title">Clipping Path</h2>
                           <div className="paragraph">
                             <p>
                               Select multiple areas within your image so they
@@ -102,10 +105,10 @@ const PricingProject = () => {
                     <div className="recent-project__slider-item">
                       <div className="recent-project__slider-item-inner">
                         <div className="thumb">
-                          <Image src={Car} alt="Image" />
+                          <Image src={mostGhostMannequin} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Multi-clipping Path</h2>
+                          <h2 className="h2 title">Ghost Mannequin</h2>
                           <div className="paragraph">
                             <p>
                               Select multiple areas within your image so they
@@ -140,10 +143,10 @@ const PricingProject = () => {
                     <div className="recent-project__slider-item">
                       <div className="recent-project__slider-item-inner">
                         <div className="thumb">
-                          <Image src={Car} alt="Image" />
+                          <Image src={mostImageRetouching} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Multi-clipping Path</h2>
+                          <h2 className="h2 title">Image Retouching</h2>
                           <div className="paragraph">
                             <p>
                               Select multiple areas within your image so they

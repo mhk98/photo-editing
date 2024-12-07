@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Arrow from "public/images/arrow.png";
+import one from "public/images/contact-us/Lets Talk.jpg";
 
 const ContactSec = () => {
   return (
@@ -47,20 +48,18 @@ const ContactSec = () => {
                         href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                         target="_blank"
                       >
-                        <i className="fa-solid fa-location-dot"></i>785 15h
-                        Street, Office 478 Berlin{" "}
+                        <i className="fa-solid fa-location-dot"></i> USA Office: WEXFORD, JAMAICA, NEW YORK 11432{" "}
                       </Link>
                     </li>
                     <li>
                       <Link href="tel:1-732-798-0976">
-                        <i className="fa-solid fa-phone-volume"></i>+1 800 555
-                        45 65
+                        <i className="fa-solid fa-phone-volume"></i>+1 (347) 951-8151
                       </Link>
                     </li>
                     <li>
                       <Link href="mailto:company.info@mail.com">
                         <i className="fa-solid fa-envelope"></i>
-                        info.stoky@company.com
+                        info.pixamoss@gmail.com
                       </Link>
                     </li>
                   </ul>

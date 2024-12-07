@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import One from "public/images/about/about-overview-one.png";
-import Two from "public/images/about/about-overview-two.png";
+import cover1 from "public/images/about-us/Pixamoss About Us Cover 1.jpg";
+import cover2 from "public/images/about-us/Pixamoss About Us Cover 2.jpg";
 
 const AboutOverview = () => {
   return (
@@ -15,7 +15,7 @@ const AboutOverview = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <Image src={One} alt="Image" />
+              <Image src={cover1} alt="Image" />
             </div>
           </div>
           <div className="col-12 col-lg-5">
@@ -25,7 +25,7 @@ const AboutOverview = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <Image src={Two} alt="Image" />
+              <Image src={cover2} alt="Image" />
             </div>
           </div>
         </div>

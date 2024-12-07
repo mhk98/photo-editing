@@ -4,11 +4,13 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/team/one.png";
-import two from "public/images/team/two.png";
-import three from "public/images/team/three.png";
-import four from "public/images/team/four.png";
-import five from "public/images/team/five.png";
+import one from "public/images/about-us/Nozrul Islam- Head of Marketing- Pixamoss.jpg";
+import two from "public/images/about-us/Abdur Rahim Milon- Chief Financial Officer- Pixamoss.jpg";
+import three from "public/images/about-us/Arman Alan- Production Manager- Pixamoss.jpg";
+import four from  "public/images/about-us/Robin Wak- Quality Controler- Pixamoss.jpg";
+import five from  "public/images/about-us/Tina Mars- Head of Digital Marketing- Pixamoss.jpg";
+
+
 
 const AboutTeam = () => {
   return (

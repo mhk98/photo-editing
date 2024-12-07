@@ -9,6 +9,15 @@ import hat from "public/images/pricing/hat.png";
 import cam from "public/images/pricing/cam.png";
 import tshirt from "public/images/pricing/tshirt.png";
 import socks from "public/images/pricing/socks.png";
+import clippingPath from "public/images/pricing1/Clipping-path-services-after- Pixamoss.jpg";
+import colorCorrection from "public/images/pricing1/color-correction-services-before- Pixamoss.jpg";
+import ghostMannequin from "public/images/pricing1/ghost-mannequin-services-after- Pixamoss.jpg";
+import headshot from "public/images/pricing1/headshot-retouch-services-after- Pixamoss.jpg";
+import imageMasking from "public/images/pricing1/Image-masking-services-after- Pixamoss.jpg";
+import imageRetouching from "public/images/pricing1/image-retouhing-services-after- Pixamoss.jpg";
+import jwelleryRetouch from "public/images/pricing1/jwellery-retouch-services-after- Pixamoss.jpg";
+import shadowCreation from "public/images/pricing1/shadoe-creation-services-after- Pixamoss.jpg";
+
 
 const PricingMain = () => {
   return (
@@ -23,7 +32,7 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={shoe} alt="Image" />
+                <Image src={clippingPath} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">Clipping Path</h4>
@@ -70,26 +79,26 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={microphone} alt="Image" />
+                <Image src={headshot} alt="Image" />
               </div>
               <div className="content">
-                <h4 className="h4">Background Removal</h4>
+                <h4 className="h4">Headshot Retouching</h4>
                 <div className="paragraph">
                   
                   <p>
-                  Basic Background Remove  <strong>$0.49 Only</strong> {" "}
+                  Basic Headshot Retouching  <strong>$0.49 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                   <p>
-                  Simple Background Remove  <strong>$0.79 Only</strong> {" "}
+                  Simple Headshot Retouching  <strong>$0.79 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                   <p>
-                  Medium Background Remove <strong>$3.49 Only</strong> {" "}
+                  Medium Headshot Retouching <strong>$3.49 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                   <p>
-                  Complex Background Remove <strong>$4.99 Only</strong> {" "}
+                  Complex Headshot Retouching <strong>$4.99 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                 </div>
@@ -117,7 +126,7 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={hat} alt="Image" />
+                <Image src={imageMasking} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">Image Masking</h4>
@@ -164,7 +173,7 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={cam} alt="Image" />
+                <Image src={imageRetouching} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">Image Retoching</h4>
@@ -211,7 +220,7 @@ const PricingMain = () => {
               data-aos-delay="600"
             >
               <div className="thumb">
-                <Image src={tshirt} alt="Image" />
+                <Image src={ghostMannequin} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">Ghost Mannequin</h4>
@@ -255,7 +264,7 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={socks} alt="Image" />
+                <Image src={shadowCreation} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">SHADOW CREATION</h4>
@@ -291,6 +300,7 @@ const PricingMain = () => {
               </div>
             </div>
           </div>
+         
           <div className="col-12 col-md-6 col-xl-4">
             <div
               className="pricing-main__single "
@@ -299,51 +309,7 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={socks} alt="Image" />
-              </div>
-              <div className="content">
-                <h4 className="h4">IMAGE MANIPULATION</h4>
-                <div className="paragraph">
-                  
-                  <p>
-                  Simple Image Manipulation <strong>$1.49 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  <p>
-                  Medium Image Manipulation <strong>$2.99 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  <p>
-                  Complex Image Manipulation <strong>$4.99 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  
-                </div>
-              </div>
-              <div className="cta__group">
-                <Link
-                  href="sign-in"
-                  aria-label="Create Account"
-                  className=" btn btn--secondary text-uppercase"
-                >
-                  get started now
-                </Link>
-              </div>
-              <div className="anime">
-                <Image src={star} alt="Image" />
-                <Image src={starhover} alt="Image" />
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 col-xl-4">
-            <div
-              className="pricing-main__single "
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="100"
-            >
-              <div className="thumb">
-                <Image src={socks} alt="Image" />
+                <Image src={colorCorrection} alt="Image" />
               </div>
               <div className="content">
                 <h4 className="h4">COLOR CORRECTION</h4>
@@ -383,6 +349,7 @@ const PricingMain = () => {
               </div>
             </div>
           </div>
+          
           <div className="col-12 col-md-6 col-xl-4">
             <div
               className="pricing-main__single "
@@ -391,25 +358,28 @@ const PricingMain = () => {
               data-aos-delay="100"
             >
               <div className="thumb">
-                <Image src={socks} alt="Image" />
+                <Image src={jwelleryRetouch} alt="Image" />
               </div>
               <div className="content">
-                <h4 className="h4">Automotive</h4>
+                <h4 className="h4">Jwellery Retouching </h4>
                 <div className="paragraph">
                   
                   <p>
-                  Simple Automotive <strong>$0.99 Only</strong> {" "}
+                  Basic Jwellery Retouching <strong>$0.59 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                   <p>
-                  Medium Automotive <strong>$1.49 Only</strong> {" "}
+                  Simple Jwellery Retouching <strong>$0.99 Only</strong> {" "}
                     <span>per image</span>
                   </p>
                   <p>
-                  Complex Automotive <strong>$2.99 Only</strong> {" "}
+                  Medium Jwellery Retouching <strong>$1.19 Only</strong> {" "}
                     <span>per image</span>
                   </p>
-                 
+                  <p>
+                  Complex Jwellery Retouching <strong>$1.99 Only</strong> {" "}
+                    <span>per image</span>
+                  </p>
                   
                 </div>
               </div>
@@ -428,51 +398,8 @@ const PricingMain = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-4">
-            <div
-              className="pricing-main__single "
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="100"
-            >
-              <div className="thumb">
-                <Image src={socks} alt="Image" />
-              </div>
-              <div className="content">
-                <h4 className="h4">VECTOR</h4>
-                <div className="paragraph">
-                  
-                  <p>
-                  Simple Vector <strong>$0.99 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  <p>
-                  Medium Vector <strong>$2.49 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  <p>
-                  Complex Vector <strong>$4.99 Only</strong> {" "}
-                    <span>per image</span>
-                  </p>
-                  
-                  
-                </div>
-              </div>
-              <div className="cta__group">
-                <Link
-                  href="sign-in"
-                  aria-label="Create Account"
-                  className=" btn btn--secondary text-uppercase"
-                >
-                  get started now
-                </Link>
-              </div>
-              <div className="anime">
-                <Image src={star} alt="Image" />
-                <Image src={starhover} alt="Image" />
-              </div>
-            </div>
-          </div>
+          
+          
           
         </div>
       </div>
