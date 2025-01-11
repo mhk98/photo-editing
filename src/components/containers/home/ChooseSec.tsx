@@ -8,6 +8,7 @@ import icontwo from "public/images/choose/icon-two.png";
 import iconthree from "public/images/choose/icon-three.png";
 import YoutubeEmbed from "@/components/layout/youtube/YoutubeEmbed";
 import axios from "axios";
+import QuoteInstructions from "../quote/QuoteInstructions";
 
 
 interface HomeChooseSec {
@@ -216,6 +217,8 @@ const ChooseSec = () => {
           </div>
         </div>
       </div>
+      
+      <QuoteInstructions/>
     </>
   );
 };

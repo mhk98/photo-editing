@@ -6,8 +6,8 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
-import Logo from "public/images/logo.png";
-import LogoLight from "public/images/logo-light.png";
+// import Logo from "public/images/logo.png";
+// import LogoLight from "public/images/logo-light.png";
 import sOne from "public/images/services/two.png";
 import sTwo from "public/images/services/three.png";
 import sThree from "public/images/services/four.png";
@@ -19,6 +19,7 @@ import icontwo from "public/images/services/icon-two.png";
 import iconthree from "public/images/services/icon-three.png";
 import iconfour from "public/images/services/icon-four.png";
 import iconfive from "public/images/services/icon-five.png";
+import Logo from "../../../../public/images/Pixamoss- Website Logo.png"
 
 interface HeaderProps {
   openNav: boolean;
@@ -122,7 +123,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <div className="nav__content">
                   <div className="nav__logo">
                     <Link href="/">
-                      {/* <Image priority src={logoSrc} alt="Logo" /> */}
+                      <Image priority src={logoSrc} alt="Logo" />
                     </Link>
                     <button
                       aria-label="open sidebar"
@@ -168,150 +169,10 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           About Us
                         </Link>
                       </li>
+                    
+
+
                       <li className="nav__menu-item nav__menu-item--dropdown">
-                        <button
-                          aria-label="dropdown menu container"
-                          className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
-                            "services"
-                          )}`}
-                          onClick={() => handleSubmenu("services")}
-                        >
-                          Services
-                        </button>
-                        <div
-                          className={`nav__dropdown mega-menu ${isSubMenuOpen(
-                            "services"
-                          )}`}
-                        >
-                          <div className="mega-menu__inner">
-                            <div className="mega-menu__single">
-                              <div className="mega-menu__single-head">
-                                <h5 className="h5">Main Services</h5>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="clipping-path-service">
-                                  <Image priority src={sOne} alt="Services" />
-                                  <span>Clipping path services</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="background-removal-service">
-                                  <Image priority src={sTwo} alt="Services" />
-                                  <span>Background Removal Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="image-retouching-service">
-                                  <Image priority src={sThree} alt="Services" />
-                                  <span>Image Retouching Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="ghost-mannequin-service">
-                                  <Image priority src={sFour} alt="Services" />
-                                  <span>Ghost Mannequin service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="image-masking-service">
-                                  <Image priority src={sFive} alt="Services" />
-                                  <span>Image Masking Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="shadow-creation-service">
-                                  <Image priority src={sSix} alt="Services" />
-                                  <span>Shadow Creation service</span>
-                                </Link>
-                              </div>
-                            </div>
-                            <div className="mega-menu__single mega-menu__single-img">
-                              {/* <div className="mega-menu__single-head">
-                                <h5 className="h5">Photo editing</h5>
-                              </div> */}
-                              <div className="mega-menu__single-item">
-                                <Link href="color-correction-service">
-                                  <Image
-                                    priority
-                                    src={iconone}
-                                    alt="Services"
-                                  />
-                                  <span>Color Correction Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="image-restoration-service">
-                                  <Image
-                                    priority
-                                    src={icontwo}
-                                    alt="Services"
-                                  />
-                                  <span>Image Restoration Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="image-manipulation-service">
-                                  <Image
-                                    priority
-                                    src={iconthree}
-                                    alt="Services"
-                                  />
-                                  <span>Image Manipulation Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="automotive-service">
-                                  <Image
-                                    priority
-                                    src={iconfour}
-                                    alt="Services"
-                                  />
-                                  <span>Automotive Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="vector-service">
-                                  <Image
-                                    priority
-                                    src={iconfive}
-                                    alt="Services"
-                                  />
-                                  <span>Vector Service</span>
-                                </Link>
-                              </div>
-                              <div className="mega-menu__single-item">
-                                <Link href="reflection-creation-service">
-                                  <Image
-                                    priority
-                                    src={iconfive}
-                                    alt="Services"
-                                  />
-                                  <span>Reflection Creation Service</span>
-                                </Link>
-                              </div>
-                            </div>
-                            <div className="mega-menu__single mega-menu__single--alt">
-                              <div className="rangu">
-                                <ReactCompareSlider
-                                  itemOne={
-                                    <ReactCompareSliderImage
-                                      src="/images/services/before.png"
-                                      alt="Image one"
-                                    />
-                                  }
-                                  itemTwo={
-                                    <ReactCompareSliderImage
-                                      src="/images/services/after.png"
-                                      alt="Image two"
-                                    />
-                                  }
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      {/* <li className="nav__menu-item nav__menu-item--dropdown">
                         <button
                           aria-label="dropdown menu container"
                           className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
@@ -319,7 +180,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           )}`}
                           onClick={() => handleSubmenu("pages")}
                         >
-                          Pages
+                          Services
                         </button>
                         <ul
                           className={`nav__dropdown ${isSubMenuOpen("pages")}`}
@@ -327,62 +188,106 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="portfolio"
+                              href="clipping-path-service"
                             >
-                              Portfolio
+                              Clipping path service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="pricing"
+                              href="background-removal-service"
                             >
-                              Pricing
+                              Background Removal service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="teams"
+                              href="image-retouching-service"
                             >
-                              Our Teams
+                             Image Retouching Service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="get-quote"
+                              href="ghost-mannequin-service"
                             >
-                              Get A Quote
+                             Ghost Mannequin Service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="service-details"
+                              href="image-masking-service"
                             >
-                              Service Details
+                             Image Masking Service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="sign-in"
+                              href="shadow-creation-service"
                             >
-                              Sign In
+                             Shadow Creation Service
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
-                              href="sign-up"
+                              href="color-correction-service"
                             >
-                              Create Account
+                             Color Correction Service
                             </Link>
                           </li>
+                          <li>
+                            <Link
+                              className="nav__dropdown-item hide-nav"
+                              href="image-restoration-service"
+                            >
+                             Image Restoration Service
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="nav__dropdown-item hide-nav"
+                              href="image-manipulation-service"
+                            >
+                             Image Manipulation Service
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="nav__dropdown-item hide-nav"
+                              href="automotive-service"
+                            >
+                             Automotive Service
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="nav__dropdown-item hide-nav"
+                              href="vector-service"
+                            >
+                             Vector Service
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="nav__dropdown-item hide-nav"
+                              href="reflection-creation-service"
+                            >
+                             Reflection Creation Service
+                            </Link>
+                          </li>
+                         
+                      
+                          
                         </ul>
-                      </li> */}
+                      </li>
 
+                     
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
@@ -400,14 +305,14 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           Pricing
                         </Link>
                       </li>
-                      <li className="nav__menu-item">
+                      {/* <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
                           href="blog"
                         >
                           Blog
                         </Link>
-                      </li>
+                      </li> */}
                       {/* <li className="nav__menu-item nav__menu-item--dropdown">
                         <button
                           aria-label="dropdown menu container"
@@ -543,7 +448,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <i className="fa-solid fa-envelope"></i>
               </span>
               <Link href="mailto:company.info@mail.com">
-                company.info@mail.com
+              info.pixamoss@gmail.com
               </Link>
             </div>
             <div className="single">
@@ -554,7 +459,20 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                 target="_blank"
               >
-                Vietnam Office: #5 Nguyentrai street, Vinh
+              Production House:68, Green Road, Dhaka- 1205, Bangladesh
+
+              </Link>
+            </div>
+            <div className="single">
+              <span>
+                <i className="fa-solid fa-location-dot"></i>
+              </span>
+              <Link
+                href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                target="_blank"
+              >
+              USA Office: WEXFORD, JAMAICA, NEW YORK 11432
+
               </Link>
             </div>
           </div>

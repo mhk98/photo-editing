@@ -139,7 +139,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       className="text-uppercase"
                     >
                       <i className="fa-solid fa-envelope"></i>
-                      company.info@mail.com
+                      info.pixamoss@gmail.com
                     </Link>
                   </li>
                 </ul>
@@ -586,7 +586,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <i className="fa-solid fa-envelope"></i>
               </span>
               <Link href="mailto:company.info@mail.com">
-                company.info@mail.com
+              info.pixamoss@gmail.com
               </Link>
             </div>
             <div className="single">
@@ -597,7 +597,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                 target="_blank"
               >
-                Vietnam Office: #5 Nguyentrai street, Vinh
+                 Production House:68, Green Road, Dhaka- 1205, Bangladesh
               </Link>
             </div>
           </div>

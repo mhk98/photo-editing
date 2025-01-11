@@ -6,6 +6,8 @@ import two from "public/images/pricing/two.png";
 import three from "public/images/pricing/three.png";
 import four from "public/images/pricing/four.png";
 import axios from "axios";
+import Counter from "../Counter";
+import Thumb from "public/images/quote-thumb.png";
 
 interface HomePricing {
   id: number; 
@@ -85,7 +87,7 @@ const PricingPlan = () => {
                     <h4 className="h4">Clipping Path</h4>
                     <p>
                     Pixamoss provides top-notch clipping path services for precise and high-quality selections.
-$0.39
+
 
                     </p>
                   </div>
@@ -119,7 +121,7 @@ $0.39
                     <h4 className="h4">Background Removal</h4>
                     <p>
                     Pixamoss is a reliable online photo editing service specializing in background
-                    removal for clean, professional images. $0.49
+                    removal for clean, professional images.
                     </p>
                   </div>
                 </div>
@@ -129,7 +131,7 @@ $0.39
                 </div>
                 <div className="price-plan">
                   <p className="h6">
-                    <span>starting at</span> $0.39 Only
+                    <span>starting at</span> $0.49 Only
                   </p>
                   <p>per image</p>
                 </div>
@@ -152,17 +154,17 @@ $0.39
                     <h4 className="h4">Photo Retouching</h4>
                     <p>
                     Pixamoss offers professional photo retouching services for ecommerce, fashion, and
-                    product photography. $0.69
+                    product photography.
                     </p>
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">50% off</p>
+                  <p className="h6">20% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">
                   <p className="h6">
-                    <span>starting at</span> $0.39 Only
+                    <span>starting at</span> $0.69 Only
                   </p>
                   <p>per image</p>
                 </div>
@@ -184,8 +186,7 @@ $0.39
                   <div className="content">
                     <h4 className="h4">Ghost Mannequin</h4>
                     <p>
-                    Pixamoss is an expert in ghost mannequin for apparel product photography. $0.79
-                    10% discount on bulk order.
+                    Pixamoss is an expert in ghost mannequin for apparel product photography. 
                     </p>
                   </div>
                 </div>
@@ -195,7 +196,7 @@ $0.39
                 </div>
                 <div className="price-plan">
                   <p className="h6">
-                    <span>starting at</span> $0.39 Only
+                    <span>starting at</span> $0.79 Only
                   </p>
                   <p>per image</p>
                 </div>
@@ -223,6 +224,82 @@ $0.39
             </div>
           </div>
         </div>
+
+       
+          <div className="col-12 col-lg-12 col-xl-12 col-xxl-5 mt-5">
+            <div className="quote-overview__content section__content">
+              <h2
+                className="h2 title "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                Price Quotes At Pixamoss
+              </h2>
+              <div
+                className="paragraph "
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <p>
+                  Select multiple areas within your image so they can be edited
+                  separately. Put your images on any background color or setting
+                </p>
+              </div>
+              <div className="pricing-section__inner-item">
+                <div
+                  className="single "
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="100"
+                >
+                  <h4 className="h4">
+                    <span className="odometer">
+                      <Counter value={90} />
+                    </span>
+                    <span>+</span>
+                  </h4>
+                  <p>Certified Professionals</p>
+                </div>
+                <div
+                  className="single "
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="100"
+                >
+                  <h4 className="h4">
+                    <span className="odometer">
+                      <Counter value={80} />
+                    </span>
+                    <span>%</span>
+                  </h4>
+                  <p>Faster Delivery</p>
+                </div>
+                <div
+                  className="single "
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="100"
+                >
+                  <h4 className="h4">
+                    <span className="odometer">
+                      <Counter value={85} />
+                    </span>
+                    <span>%</span>
+                  </h4>
+                  <p>Lower Cost</p>
+                </div>
+              </div>
+              <div className="cta__group justify-content-center">
+                <Link href="sign-in" className="btn btn--secondary">
+                  Get Started
+                </Link>
+              </div>
+            </div>
+          </div>
+         
+       
       </div>
     </section>
   );

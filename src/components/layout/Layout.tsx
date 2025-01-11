@@ -41,11 +41,11 @@ const Layout = ({ children, header, footer }: LayoutProps) => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-        <title>Photodit | Clipping Path Service React NextJs Template</title>
+        <title>Pixamos | Clipping Path Service</title>
         <meta name="keywords" content="photodit, image editing, edit, react" />
         <meta
           name="description"
-          content="Clipping Path Service React NextJs Template"
+          content="Clipping Path Service"
         />
       </Head>
       <div className={`${combinedClasses}${openNav ? " body-active" : " "}`}>

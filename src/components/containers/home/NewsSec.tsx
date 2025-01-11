@@ -57,7 +57,7 @@ const NewsSec = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                news form photodit
+                news form Pixamoss
               </h2>
             </div>
           </div>

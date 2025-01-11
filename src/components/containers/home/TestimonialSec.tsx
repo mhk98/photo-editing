@@ -165,7 +165,7 @@ you're considering image editing, Pixamoss might be the perfect partner for your
                       </div>
                       <div className="meta__content">
                         <p className="h5">Lukas Tylor</p>
-                        <p>Senior Technology Editor</p>
+                        <p>Senior Photographer</p>
                       </div>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ marketable.
                       </div>
                       <div className="meta__content">
                         <p className="h5">Juliana Almeida</p>
-                        <p>CEO</p>
+                        <p>CEO Focus Studio</p>
                       </div>
                     </div>
                   </div>

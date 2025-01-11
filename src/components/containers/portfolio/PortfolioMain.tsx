@@ -158,7 +158,7 @@ const PortfolioMain = () => {
                   }
                   itemTwo={
                     <ReactCompareSliderImage
-                      src="/images/portfolio/color-correction-services-after- Pixamoss.jpg"
+                      src="/images/portfolio/color-correction-services-before- Pixamoss.jpg"
                       alt="Image two"
                     />
                   }

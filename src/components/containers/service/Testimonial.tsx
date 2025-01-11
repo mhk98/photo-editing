@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -96,7 +97,7 @@ const Testimonial = () => {
               </div>
               <div className="col-12 col-lg-8 col-xxl-6 offset-xxl-1">
                 <div className="testimonnial-two__slider-item__content section__content">
-                  <p className="h6 sub-title">client&apos;s testimonial</p>
+                  <p className="h6 sub-title">client&apos;s testimonials</p>
                   <h2 className="h2 title text-uppercase">
                     {item.title}
                   </h2>
@@ -144,6 +145,23 @@ const Testimonial = () => {
                   ))
                 }
 
+<div className="mt-5 container">
+                <p>
+                <b>Irina Barr, From UK:</b> In today's competitive landscape, businesses often require rapid access to
+high-quality images to maintain engagement and relevance. Pixamoss's ability to deliver edited images
+swiftly ensures that clients can respond to market trends and promotional opportunities without delay.
+This capability is particularly crucial for industries where timing can significantly impact marketing
+effectiveness and customer engagement.
+                </p>
+                <p className="mt-3">
+               <b> Brad Hodge, From Australia:</b> Pixamoss demonstrates a strong commitment to both quality and speed,
+                helping businesses improve their visual content while building long-term client relationships.
+                </p>
+                <p className="mt-3">
+                <b>Jeremy Victor, From US:</b> Pixamoss is highly regarded for its product editing and ghost mannequin
+                services, which are essential for effectively showcasing products.
+                </p>
+              </div>
      
     </section>
   );

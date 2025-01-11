@@ -27,10 +27,10 @@ const ContactSec = () => {
                     data-aos-duration="600"
                     data-aos-delay="100"
                   >
-                    <p>
+                    {/* <p>
                       Adipiscing elit, sed do eiusmod tempor incididunt ut
                       labore et dolore magna aliqua. Ut enim ad minim.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="thumb">
@@ -57,7 +57,7 @@ const ContactSec = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="mailto:company.info@mail.com">
+                      <Link href="mailto:company.info@mail.com" >
                         <i className="fa-solid fa-envelope"></i>
                         info.pixamoss@gmail.com
                       </Link>

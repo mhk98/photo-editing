@@ -18,7 +18,7 @@ const WorkSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: HomeAbout[] }>('https://api.pixamoss.com/api/v1/howItWorks');
+        const response = await axios.get<{ data: HomeAbout[] }>('http://localhost:5000/api/v1/howItWorks');
         setData(response.data.data);
       } catch (err:any) {
         console.error("Error fetching home banner data:", err.message);
@@ -107,8 +107,7 @@ that your project has been received.
                           <span>04</span>
                         </div>
                         <p> <span style={{fontWeight:"bold"}}>Download Link: </span>
-                        You start by sending the images that
-                        need editing to the service
+                        We will send an email with the download link.
                         </p>
                       </li>
                       <li
@@ -140,7 +139,7 @@ If you have any further questions or need assistance with the process, feel free
                     {
                       data?.map((item)=>(
                         <Image key={item.id}
-              src={`https://api.pixamoss.com/${item.image}`}
+              src={`http://localhost:5000/${item.image}`}
               width={635} 
               height={460} 
               layout="responsive"  

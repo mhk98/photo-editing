@@ -38,7 +38,7 @@ const AboutCta = () => {
                       data-aos-duration="600"
                       data-aos-delay="100"
                     >
-                      Remove Image Background
+                      Image Retouching
                     </h2>
                     <div
                       className="paragraph "
@@ -47,8 +47,9 @@ const AboutCta = () => {
                       data-aos-delay="100"
                     >
                       <p>
-                        Clipping Path Could be a process by which photo editors
-                        make a vector path to pick.
+                        {/* Clipping Path Could be a process by which photo editors
+                        make a vector path to pick. */}
+                        Investing in this service can improve the visual quality of product images, enhance customer engagement and boost
                       </p>
                     </div>
                     <div

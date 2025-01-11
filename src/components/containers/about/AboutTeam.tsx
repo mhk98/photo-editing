@@ -88,7 +88,7 @@ const AboutTeam = () => {
                 <h4 className="h4">
                   <Link href="teams">Achim Thiemer mann</Link>
                 </h4>
-                <p>Social Media Marketing</p>
+                <p>Head of Marketing</p>
               </div>
             </div>
           </SwiperSlide>
@@ -99,7 +99,7 @@ const AboutTeam = () => {
                 <h4 className="h4">
                   <Link href="teams">Achim Thiemer mann</Link>
                 </h4>
-                <p>Social Media Marketing</p>
+                <p>Chief Financial Officer</p>
               </div>
             </div>
           </SwiperSlide>
@@ -110,7 +110,7 @@ const AboutTeam = () => {
                 <h4 className="h4">
                   <Link href="teams">Achim Thiemer mann</Link>
                 </h4>
-                <p>Social Media Marketing</p>
+                <p>Production Manager</p>
               </div>
             </div>
           </SwiperSlide>
@@ -121,7 +121,7 @@ const AboutTeam = () => {
                 <h4 className="h4">
                   <Link href="teams">Achim Thiemer mann</Link>
                 </h4>
-                <p>Social Media Marketing</p>
+                <p>Quality Controler</p>
               </div>
             </div>
           </SwiperSlide>
@@ -132,7 +132,7 @@ const AboutTeam = () => {
                 <h4 className="h4">
                   <Link href="teams">Achim Thiemer mann</Link>
                 </h4>
-                <p>Social Media Marketing</p>
+                <p>Head of Digital Marketing</p>
               </div>
             </div>
           </SwiperSlide>

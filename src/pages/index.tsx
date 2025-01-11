@@ -23,7 +23,7 @@ const Home = () => {
       <QualitySec />
       <TestimonialSec />
       <PricingPlan />
-      <NewsSec />
+      {/* <NewsSec /> */}
       <CTA />
       <SponsorSlider />
     </Layout>

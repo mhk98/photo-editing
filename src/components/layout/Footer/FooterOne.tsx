@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoLight from "public/images/logo-light.png";
+import LogoLight from "public/images/Pixamoss- Website Logo.png";
 
 const FooterOne = () => {
   return (
@@ -83,7 +83,7 @@ const FooterOne = () => {
           <div className="col-12 col-sm-6 col-lg-3 col-xl-3">
             <div className="footer__single ">
               <div className="footer__head">
-                <h5 className="h5">Meet with photodit</h5>
+                <h5 className="h5">Meet with Pixamoss</h5>
               </div>
               <div className="footer__list">
                 <ul>
@@ -126,7 +126,7 @@ const FooterOne = () => {
                       
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
-                      <i className="fa-solid fa-location-dot"></i> USA OFFICE:</span>
+                      <i className="fa-solid fa-location-dot"></i> USA OFFICE: </span>
 18230 WEXFORD, JAMAICA, NEW YORK 11432</p>
                     <p></p>
                     </Link>
@@ -139,17 +139,19 @@ const FooterOne = () => {
                       
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
-                      <i className="fa-solid fa-location-dot"></i> Production House:</span>
+                      <i className="fa-solid fa-location-dot"></i> Production House: </span>
                       68, Green Road, Dhaka- 1205, Bangladesh</p>
                     <p></p>
                     </Link>
                   </li>
+                  
                   <li>
-                    <Link href="mailto:company.info@mail.com">
-                      <i className="fa-solid fa-envelope"></i>
-                      info.pixamoss@gmail.com
-                    </Link>
-                  </li>
+                  <Link href="mailto:company.info@mail.com" style={{textTransform:"lowercase"}}>
+                    <i className="fa-solid fa-envelope"></i>
+                    info.pixamoss@gmail.com
+                  </Link>
+                </li>
+
                   <li>
                     <Link href="tel:1-732-798-0976">
                       <i className="fa-solid fa-phone-volume"></i>+1 (732)
@@ -205,7 +207,7 @@ const FooterOne = () => {
                   <div className="footer__copy text-center text-lg-end">
                     <p>
                       Copyright &copy; <span id="copyYear"></span>{" "}
-                      <Link href="/">photodit </Link> All Rights Reserved.
+                      <Link href="/">Pixamoss </Link> All Rights Reserved.
                     </p>
                   </div>
                 </div>
