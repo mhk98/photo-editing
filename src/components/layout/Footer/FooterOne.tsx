@@ -4,6 +4,14 @@ import Link from "next/link";
 import LogoLight from "public/images/Pixamoss- Website Logo.png";
 
 const FooterOne = () => {
+
+
+  const getActiveLinkStyle = (path: string) => {
+    return router.pathname === path
+      ? { color: "#4B6EE8", fontWeight: "bold" }
+      : {};
+  };
+  
   return (
     <footer className="section section--space-top footer ">
       <div className="container">
@@ -56,23 +64,23 @@ const FooterOne = () => {
               <div className="footer__list">
                 <ul>
                   <li>
-                    <Link href="service-details">
+                    <Link href="clipping-path-service">
                       <i className="fa-solid fa-angle-right"></i>clipping path
                     </Link>
                   </li>
                   <li>
-                    <Link href="service-details">
+                    <Link href="background-removal-service">
                       <i className="fa-solid fa-angle-right"></i>background
                       remove
                     </Link>
                   </li>
                   <li>
-                    <Link href="service-details">
+                    <Link href="image-masking-service">
                       <i className="fa-solid fa-angle-right"></i>image masking
                     </Link>
                   </li>
                   <li>
-                    <Link href="service-details">
+                    <Link href="image-retouching-service">
                       <i className="fa-solid fa-angle-right"></i>image retouch
                     </Link>
                   </li>

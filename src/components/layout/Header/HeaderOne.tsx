@@ -113,6 +113,13 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     scrolled ? " header-active" : " "
   } ${headerClass} ${defaultClasses}`;
 
+
+  const getActiveLinkStyle = (path: string) => {
+    return router.pathname === path
+      ? { color: "#4B6EE8", fontWeight: "bold" }
+      : {};
+  };
+
   return (
     <>
       <header className={combinedClasses}>
@@ -156,6 +163,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
+                          style={getActiveLinkStyle("/")}
                           href="/"
                         >
                           Home
@@ -164,6 +172,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
+                          style={getActiveLinkStyle("/about-us")}
                           href="about-us"
                         >
                           About Us
@@ -178,6 +187,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
                             "pages"
                           )}`}
+                        
                           onClick={() => handleSubmenu("pages")}
                         >
                           Services
@@ -188,6 +198,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/clipping-path-service")}
                               href="clipping-path-service"
                             >
                               Clipping path service
@@ -196,6 +207,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/background-removal-service")}
                               href="background-removal-service"
                             >
                               Background Removal service
@@ -204,6 +216,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/image-retouching-service")}
                               href="image-retouching-service"
                             >
                              Image Retouching Service
@@ -212,6 +225,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/ghost-mannequin-service")}
                               href="ghost-mannequin-service"
                             >
                              Ghost Mannequin Service
@@ -220,6 +234,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/image-masking-service")}
                               href="image-masking-service"
                             >
                              Image Masking Service
@@ -228,6 +243,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/shadow-creation-service")}
                               href="shadow-creation-service"
                             >
                              Shadow Creation Service
@@ -236,6 +252,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/color-correction-service")}
                               href="color-correction-service"
                             >
                              Color Correction Service
@@ -244,6 +261,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/image-restoration-service")}
                               href="image-restoration-service"
                             >
                              Image Restoration Service
@@ -252,6 +270,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/image-manipulation-service")}
                               href="image-manipulation-service"
                             >
                              Image Manipulation Service
@@ -260,6 +279,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/automotive-service")}
                               href="automotive-service"
                             >
                              Automotive Service
@@ -268,6 +288,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/vector-service")}
                               href="vector-service"
                             >
                              Vector Service
@@ -276,6 +297,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link
                               className="nav__dropdown-item hide-nav"
+                              style={getActiveLinkStyle("/reflection-creation-service")}
                               href="reflection-creation-service"
                             >
                              Reflection Creation Service
@@ -291,6 +313,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
+                          style={getActiveLinkStyle("/portfolio")}
                           href="portfolio"
                         >
                           Portfolio
@@ -300,60 +323,24 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
+                          style={getActiveLinkStyle("/pricing")}
                           href="pricing"
                         >
                           Pricing
                         </Link>
                       </li>
-                      {/* <li className="nav__menu-item">
-                        <Link
-                          className="nav__menu-link hide-nav"
-                          href="blog"
-                        >
-                          Blog
-                        </Link>
-                      </li> */}
-                      {/* <li className="nav__menu-item nav__menu-item--dropdown">
-                        <button
-                          aria-label="dropdown menu container"
-                          className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
-                            "blog"
-                          )}`}
-                          onClick={() => handleSubmenu("blog")}
-                        >
-                          Blog
-                        </button>
-                        <ul
-                          className={`nav__dropdown ${isSubMenuOpen("blog")}`}
-                        >
-                          <li>
-                            <Link
-                              className="nav__dropdown-item hide-nav"
-                              href="blog"
-                            >
-                              Blog
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              className="nav__dropdown-item hide-nav"
-                              href="blog-single"
-                            >
-                              Blog Single
-                            </Link>
-                          </li>
-                        </ul>
-                      </li> */}
+                    
                       <li className="nav__menu-item">
                         <Link
                           className="nav__menu-link hide-nav"
+                          style={getActiveLinkStyle("/contact-us")}
                           href="contact-us"
                         >
                           Contact
                         </Link>
                       </li>
                       <li className="nav__menu-item d-block d-md-none">
-                        <Link href="get-quote" className="btn btn--secondary">
+                        <Link href="get-quote" style={getActiveLinkStyle("/get-quote")} className="btn btn--secondary">
                           Get A proposal
                         </Link>
                       </li>
@@ -383,7 +370,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="nav__uncollapsed">
                     <div className="nav__uncollapsed-item d-none d-md-flex">
-                      <Link href="get-quote" className="btn btn--secondary">
+                      <Link href="get-quote" style={getActiveLinkStyle("/get-quote")} className="btn btn--secondary">
                         get a proposal
                       </Link>
                     </div>
