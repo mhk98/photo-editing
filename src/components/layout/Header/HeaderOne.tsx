@@ -20,6 +20,7 @@ import iconthree from "public/images/services/icon-three.png";
 import iconfour from "public/images/services/icon-four.png";
 import iconfive from "public/images/services/icon-five.png";
 import Logo from "../../../../public/images/Pixamoss- Website Logo.png"
+import LogoLight from "public/images/logo-light.png";
 
 interface HeaderProps {
   openNav: boolean;
