@@ -2,12 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import LogoLight from "public/images/Pixamoss- Website Logo.png";
+import Router from "next/router"; // Add this import
 
 const FooterOne = () => {
 
 
   const getActiveLinkStyle = (path: string) => {
-    return router.pathname === path
+    return Router.pathname === path
       ? { color: "#4B6EE8", fontWeight: "bold" }
       : {};
   };
