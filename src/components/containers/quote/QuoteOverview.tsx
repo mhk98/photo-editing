@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Thumb from "public/images/quote-thumb.png";
-import Anime from "public/images/quote-anime.png";
+import Anime from "public/images/proposal/107-108.jpg";
+import Thumb from "public/images/proposal/669-626.jpg";
 import Counter from "../Counter";
 
 const QuoteOverview = () => {

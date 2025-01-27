@@ -6,9 +6,9 @@ import ServiceDetailsAbout from "@/components/containers/vector/ServiceDetailsAb
 import ServiceProject from "@/components/containers/vector/ServiceProject";
 import ServicePricing from "@/components/containers/vector/ServicePricing";
 import Testimonial from "@/components/containers/vector/Testimonial";
-import ServiceFaq from "@/components/containers/vector/ServiceFaq";
 import Trial from "@/components/containers/vector/Trial";
 import WorkSec from "@/components/containers/vector/WorkSec";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const VectorService = () => {
@@ -20,7 +20,7 @@ const VectorService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

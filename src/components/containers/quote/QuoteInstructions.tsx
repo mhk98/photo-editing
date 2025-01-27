@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
 const QuoteInstructions = () => {
@@ -34,8 +35,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Choose services</h5>
                 <p>
-                  Choose which service you need. If none of the options fit what
-                  you&apos;re looking.
+                Begin by selecting the services you need. This could involve options depending on what you're looking for—like editing, retouching, or design services
                 </p>
               </div>
             </div>
@@ -55,8 +55,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Choose Output File Options</h5>
                 <p>
-                  Choose which service you need. If none of the options fit what
-                  you&apos;re looking.
+                After selecting your services, decide on the output format for your files. This might include PNG, TIF, PSD, JPEG, etc., based on your requirements and what’s compatible with your workflow.
                 </p>
               </div>
             </div>
@@ -76,8 +75,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Drag & Drop Files</h5>
                 <p>
-                  Choose which service you need. If none of the options fit what
-                  you&apos;re looking.
+                Once you've chosen everything, simply drag and drop the files you want to process into the designated area. Make sure your files are ready
                 </p>
               </div>
             </div>
@@ -97,8 +95,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Get a Quote</h5>
                 <p>
-                  Choose which service you need. If none of the options fit what
-                  you&apos;re looking.
+                After your files are uploaded, you’ll typically see an option to get a quote. Click that, and you should receive details about pricing and any other pertinent information.
                 </p>
               </div>
             </div>

@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/ghostMannequin/WorkSec";
 import ServiceProject from "@/components/containers/ghostMannequin/ServiceProject";
 import ServicePricing from "@/components/containers/ghostMannequin/ServicePricing";
 import Testimonial from "@/components/containers/ghostMannequin/Testimonial";
-import ServiceFaq from "@/components/containers/ghostMannequin/ServiceFaq";
 import Trial from "@/components/containers/ghostMannequin/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const GhostMannequinService = () => {
@@ -20,7 +20,7 @@ const GhostMannequinService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

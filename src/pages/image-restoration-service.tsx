@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/imageRestoration/WorkSec";
 import ServiceProject from "@/components/containers/imageRestoration/ServiceProject";
 import ServicePricing from "@/components/containers/imageRestoration/ServicePricing";
 import Testimonial from "@/components/containers/imageRestoration/Testimonial";
-import ServiceFaq from "@/components/containers/imageRestoration/ServiceFaq";
 import Trial from "@/components/containers/imageRestoration/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ImageRestorationService = () => {
@@ -20,7 +20,7 @@ const ImageRestorationService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

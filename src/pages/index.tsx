@@ -11,6 +11,7 @@ import PricingPlan from "@/components/containers/home/PricingPlan";
 import NewsSec from "@/components/containers/home/NewsSec";
 import CTA from "@/components/containers/home/CTA";
 import SponsorSlider from "@/components/containers/home/SponsorSlider";
+import PortfolioSponsorSlider from "@/components/containers/portfolio/PortfolioSponsorSlider";
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
       <PricingPlan />
       {/* <NewsSec /> */}
       <CTA />
-      <SponsorSlider />
+      <PortfolioSponsorSlider />
     </Layout>
   );
 };

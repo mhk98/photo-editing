@@ -150,7 +150,7 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Social Retouching Service</h4>
+                <h4 className="h4">Image Retouching Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
@@ -255,7 +255,7 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Shadow Creation Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>
@@ -276,7 +276,7 @@ const Services = () => {
               layout="responsive"  
               alt="Image" />
               <div className="services__slider-single__content">
-                <h4 className="h4">Clipping path services</h4>
+                <h4 className="h4">Image Manipulation Service</h4>
                 <Link href="service-details">
                   <i className="icon-arrow-up"></i>
                 </Link>

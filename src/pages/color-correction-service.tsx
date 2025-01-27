@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/colorCorrection/WorkSec";
 import ServiceProject from "@/components/containers/colorCorrection/ServiceProject";
 import ServicePricing from "@/components/containers/colorCorrection/ServicePricing";
 import Testimonial from "@/components/containers/colorCorrection/Testimonial";
-import ServiceFaq from "@/components/containers/colorCorrection/ServiceFaq";
 import Trial from "@/components/containers/colorCorrection/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ColorCorrectionService = () => {
@@ -20,7 +20,7 @@ const ColorCorrectionService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

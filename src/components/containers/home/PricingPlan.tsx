@@ -159,7 +159,7 @@ const PricingPlan = () => {
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">20% off</p>
+                  <p className="h6">50% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">
@@ -186,7 +186,7 @@ const PricingPlan = () => {
                   <div className="content">
                     <h4 className="h4">Ghost Mannequin</h4>
                     <p>
-                    Pixamoss is an expert in ghost mannequin for apparel product photography. 
+                    Pixamoss is an expert in ghost mannequin for apparel product, e-commerce, fashion, and apparel product photography.
                     </p>
                   </div>
                 </div>
@@ -226,78 +226,7 @@ const PricingPlan = () => {
         </div>
 
        
-          <div className="col-12 col-lg-12 col-xl-12 col-xxl-5 mt-5">
-            <div className="quote-overview__content section__content">
-              <h2
-                className="h2 title "
-                data-aos="fade-up"
-                data-aos-duration="600"
-                data-aos-delay="100"
-              >
-                Price Quotes At Pixamoss
-              </h2>
-              <div
-                className="paragraph "
-                data-aos="fade-up"
-                data-aos-duration="600"
-                data-aos-delay="100"
-              >
-                <p>
-                  Select multiple areas within your image so they can be edited
-                  separately. Put your images on any background color or setting
-                </p>
-              </div>
-              <div className="pricing-section__inner-item">
-                <div
-                  className="single "
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="100"
-                >
-                  <h4 className="h4">
-                    <span className="odometer">
-                      <Counter value={90} />
-                    </span>
-                    <span>+</span>
-                  </h4>
-                  <p>Certified Professionals</p>
-                </div>
-                <div
-                  className="single "
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="100"
-                >
-                  <h4 className="h4">
-                    <span className="odometer">
-                      <Counter value={80} />
-                    </span>
-                    <span>%</span>
-                  </h4>
-                  <p>Faster Delivery</p>
-                </div>
-                <div
-                  className="single "
-                  data-aos="fade-up"
-                  data-aos-duration="600"
-                  data-aos-delay="100"
-                >
-                  <h4 className="h4">
-                    <span className="odometer">
-                      <Counter value={85} />
-                    </span>
-                    <span>%</span>
-                  </h4>
-                  <p>Lower Cost</p>
-                </div>
-              </div>
-              <div className="cta__group justify-content-center">
-                <Link href="sign-in" className="btn btn--secondary">
-                  Get Started
-                </Link>
-              </div>
-            </div>
-          </div>
+          
          
        
       </div>

@@ -275,23 +275,7 @@ anchor points, especially in elements like bracelets or chains.
                   <li><b>Wire furniture      </b></li>                      
               </div>
 
-              <div className="mt-5">
-                <p>
-                <b>Irina Barr, From UK:</b> In today's competitive landscape, businesses often require rapid access to
-high-quality images to maintain engagement and relevance. Pixamoss's ability to deliver edited images
-swiftly ensures that clients can respond to market trends and promotional opportunities without delay.
-This capability is particularly crucial for industries where timing can significantly impact marketing
-effectiveness and customer engagement.
-                </p>
-                <p className="mt-3">
-               <b> Brad Hodge, From Australia:</b> Pixamoss demonstrates a strong commitment to both quality and speed,
-                helping businesses improve their visual content while building long-term client relationships.
-                </p>
-                <p className="mt-3">
-                <b>Jeremy Victor, From US:</b> Pixamoss is highly regarded for its product editing and ghost mannequin
-                services, which are essential for effectively showcasing products.
-                </p>
-              </div>
+            
             </div>
 
 

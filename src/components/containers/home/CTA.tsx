@@ -57,11 +57,10 @@ const CTA = () => {
                 <div className="col-12 col-lg-6">
                   <div className="try-cta__content section__content">
                     <p className="h6 sub-title ">try free now</p>
-                    <h2 className="h2 title ">Remove Image Background</h2>
+                    <h2 className="h2 title ">Image Retouching</h2>
                     <div className="paragraph ">
                       <p>
-                        Clipping Path Could be a process by which photo editors
-                        make a vector path to pick.
+                      Investing in this service can improve the visual quality of product images, enhance customer engagement and boost.
                       </p>
                     </div>
                     <div className="cta__group ">

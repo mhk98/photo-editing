@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import one from "public/images/quote/one.png";
-import two from "public/images/quote/two.png";
-import three from "public/images/quote/three.png";
-import four from "public/images/quote/four.png";
-import five from "public/images/quote/five.png";
-import six from "public/images/quote/six.png";
+import one from "public/images/proposal/330-564- 1.jpg";
+import two from "public/images/proposal/330-460.jpg";
+import three from "public/images/proposal/330-564- 2.jpg";
+import four from "public/images/proposal/330-512-1.jpg";
+import five from "public/images/proposal/330-512-2.jpg";
+import six from "public/images/proposal/330-330 Right Side.jpg";
 
 const CustomQuote = () => {
   return (

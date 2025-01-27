@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/service/WorkSec";
 import ServiceProject from "@/components/containers/service/ServiceProject";
 import ServicePricing from "@/components/containers/service/ServicePricing";
 import Testimonial from "@/components/containers/service/Testimonial";
-import ServiceFaq from "@/components/containers/service/ServiceFaq";
 import Trial from "@/components/containers/service/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ClippingPathService = () => {
@@ -20,7 +20,7 @@ const ClippingPathService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

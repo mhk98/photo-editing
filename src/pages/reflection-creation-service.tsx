@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/reflectionCreation/WorkSec";
 import ServiceProject from "@/components/containers/reflectionCreation/ServiceProject";
 import ServicePricing from "@/components/containers/reflectionCreation/ServicePricing";
 import Testimonial from "@/components/containers/reflectionCreation/Testimonial";
-import ServiceFaq from "@/components/containers/reflectionCreation/ServiceFaq";
 import Trial from "@/components/containers/reflectionCreation/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ReflectionCreationService = () => {
@@ -20,7 +20,7 @@ const ReflectionCreationService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

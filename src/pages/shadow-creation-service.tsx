@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/shadowCreation/WorkSec";
 import ServiceProject from "@/components/containers/shadowCreation/ServiceProject";
 import ServicePricing from "@/components/containers/shadowCreation/ServicePricing";
 import Testimonial from "@/components/containers/shadowCreation/Testimonial";
-import ServiceFaq from "@/components/containers/shadowCreation/ServiceFaq";
 import Trial from "@/components/containers/shadowCreation/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ShadowCreationService = () => {
@@ -20,7 +20,7 @@ const ShadowCreationService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

@@ -86,7 +86,7 @@ const AboutTeam = () => {
               <Image src={one} alt="Image" />
               <div className="content">
                 <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
+                  <Link href="teams">Nozrul Islam</Link>
                 </h4>
                 <p>Head of Marketing</p>
               </div>
@@ -97,7 +97,7 @@ const AboutTeam = () => {
               <Image src={two} alt="Image" />
               <div className="content">
                 <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
+                  <Link href="teams">Abdur Rahim Milon</Link>
                 </h4>
                 <p>Chief Financial Officer</p>
               </div>
@@ -108,7 +108,7 @@ const AboutTeam = () => {
               <Image src={three} alt="Image" />
               <div className="content">
                 <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
+                  <Link href="teams">Arman Alan</Link>
                 </h4>
                 <p>Production Manager</p>
               </div>
@@ -119,7 +119,7 @@ const AboutTeam = () => {
               <Image src={four} alt="Image" />
               <div className="content">
                 <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
+                  <Link href="teams">Robin Wak</Link>
                 </h4>
                 <p>Quality Controler</p>
               </div>
@@ -130,68 +130,13 @@ const AboutTeam = () => {
               <Image src={five} alt="Image" />
               <div className="content">
                 <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
+                  <Link href="teams">Tina Mars</Link>
                 </h4>
                 <p>Head of Digital Marketing</p>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-two__slider-item">
-              <Image src={one} alt="Image" />
-              <div className="content">
-                <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
-                </h4>
-                <p>Social Media Marketing</p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-two__slider-item">
-              <Image src={two} alt="Image" />
-              <div className="content">
-                <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
-                </h4>
-                <p>Social Media Marketing</p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-two__slider-item">
-              <Image src={three} alt="Image" />
-              <div className="content">
-                <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
-                </h4>
-                <p>Social Media Marketing</p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-two__slider-item">
-              <Image src={four} alt="Image" />
-              <div className="content">
-                <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
-                </h4>
-                <p>Social Media Marketing</p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-two__slider-item">
-              <Image src={five} alt="Image" />
-              <div className="content">
-                <h4 className="h4">
-                  <Link href="teams">Achim Thiemer mann</Link>
-                </h4>
-                <p>Social Media Marketing</p>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
+                  </Swiper>
       </div>
     </section>
   );

@@ -137,7 +137,7 @@ product appeal, catering to product photographers, Amazon sellers, and global br
                       data-aos-duration="600"
                       data-aos-delay="100"
                     >
-                     Discover the Benefits of Choosing Pixamoss..
+                     Discover the Benefits of Choosing Pixamoss...
                     </h2>
                   </div>
                 </div>

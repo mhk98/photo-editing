@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -70,12 +71,10 @@ const PricingProject = () => {
                           <Image src={mostClippingPath} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Clipping Path</h2>
+                          <h2 className="h2 title">Clipping Path Service</h2>
                           <div className="paragraph">
                             <p>
-                              Select multiple areas within your image so they
-                              can be edited separately. Put your images on any
-                              background color or setting
+                            Pixamoss offers Clipping Path Services, an important image editing method using Adobe Photoshop's Pen Tool to isolate subjects from their backgrounds. This technique is particularly useful for product photography and e-commerce, as it improves the visual appeal of images and allows for flexible background choices.
                             </p>
                           </div>
                           <div className="price-tag">
@@ -108,12 +107,11 @@ const PricingProject = () => {
                           <Image src={mostGhostMannequin} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Ghost Mannequin</h2>
+                          <h2 className="h2 title">Ghost Mannequin Service</h2>
                           <div className="paragraph">
                             <p>
-                              Select multiple areas within your image so they
-                              can be edited separately. Put your images on any
-                              background color or setting
+                            Pixamoss's Ghost Mannequin Service revolutionizes fashion photography by removing the mannequin from product images while preserving the clothing's depth and shape. This technique allows customers to better visualize the fit and flow of garments, enhancing their appeal and creating a seamless shopping experience.
+
                             </p>
                           </div>
                           <div className="price-tag">
@@ -146,12 +144,11 @@ const PricingProject = () => {
                           <Image src={mostImageRetouching} alt="Image" />
                         </div>
                         <div className="content section__content">
-                          <h2 className="h2 title">Image Retouching</h2>
+                          <h2 className="h2 title">Image Retouching Service</h2>
                           <div className="paragraph">
                             <p>
-                              Select multiple areas within your image so they
-                              can be edited separately. Put your images on any
-                              background color or setting
+                            Pixamoss offers a range of Image retouching services, such as product, model, and jewelry enhancements, which improve product presentation and reinforce brand credibility. Utilizing these expert services helps companies attract customers, improve conversion rates, and increase sales. 
+
                             </p>
                           </div>
                           <div className="price-tag">

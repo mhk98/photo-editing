@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/imageManipulation/WorkSec";
 import ServiceProject from "@/components/containers/imageManipulation/ServiceProject";
 import ServicePricing from "@/components/containers/imageManipulation/ServicePricing";
 import Testimonial from "@/components/containers/imageManipulation/Testimonial";
-import ServiceFaq from "@/components/containers/imageManipulation/ServiceFaq";
 import Trial from "@/components/containers/imageManipulation/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ImageManipulationService = () => {
@@ -20,7 +20,7 @@ const ImageManipulationService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

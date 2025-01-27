@@ -7,8 +7,8 @@ import WorkSec from "@/components/containers/imageMasking/WorkSec";
 import ServiceProject from "@/components/containers/imageMasking/ServiceProject";
 import ServicePricing from "@/components/containers/imageMasking/ServicePricing";
 import Testimonial from "@/components/containers/imageMasking/Testimonial";
-import ServiceFaq from "@/components/containers/imageMasking/ServiceFaq";
 import Trial from "@/components/containers/imageMasking/Trial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const ImageMaskingService = () => {
@@ -20,7 +20,7 @@ const ImageMaskingService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>
