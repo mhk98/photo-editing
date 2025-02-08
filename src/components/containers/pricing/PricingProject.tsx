@@ -116,7 +116,7 @@ const PricingProject = () => {
                           </div>
                           <div className="price-tag">
                             <p>
-                              starting at <span>$0.39 Only</span>
+                              starting at <span>$0.59 Only</span>
                             </p>
                           </div>
                           <div className="cta__group justify-content-start">
@@ -153,7 +153,7 @@ const PricingProject = () => {
                           </div>
                           <div className="price-tag">
                             <p>
-                              starting at <span>$0.39 Only</span>
+                              starting at <span>$0.79 Only</span>
                             </p>
                           </div>
                           <div className="cta__group justify-content-start">

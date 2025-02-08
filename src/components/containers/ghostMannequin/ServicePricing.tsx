@@ -53,7 +53,7 @@ const ServicePricing = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                How much do clipping path services cost?
+                How much do ghost mannequin services cost?
               </h2>
             </div>
           </div>

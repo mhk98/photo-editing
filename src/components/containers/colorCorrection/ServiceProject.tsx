@@ -55,7 +55,7 @@ const ServiceProject = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                beautiful clipping path projects
+                beautiful color correction projects
               </h2>
             </div>
           </div>

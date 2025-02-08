@@ -18,7 +18,7 @@ const QuoteOverview = () => {
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
-                Price Quotes At photodit
+                Price Quotes At Pixamoss
               </h2>
               <div
                 className="paragraph "

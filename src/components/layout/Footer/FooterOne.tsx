@@ -34,7 +34,7 @@ const FooterOne = () => {
                 </p>
               </div>
               <ul className="social">
-                <li>
+                {/* <li>
                   <Link href="/" aria-label="social media">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
@@ -43,14 +43,14 @@ const FooterOne = () => {
                   <Link href="/" aria-label="social media">
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link href="/" aria-label="social media">
+                  <Link href="https://www.pinterest.com/pixamoss/" aria-label="social media">
                     <i className="fa-brands fa-youtube"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" aria-label="social media">
+                  <Link href="https://www.instagram.com/pixamoss/" aria-label="social media">
                     <i className="fa-brands fa-instagram"></i>
                   </Link>
                 </li>
@@ -136,7 +136,7 @@ const FooterOne = () => {
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
                       <i className="fa-solid fa-location-dot"></i> USA OFFICE: </span>
-18230 WEXFORD, JAMAICA, NEW YORK 11432</p>
+WEXFORD, JAMAICA, NEW YORK 11432</p>
                     <p></p>
                     </Link>
                   </li>
@@ -149,7 +149,7 @@ const FooterOne = () => {
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
                       <i className="fa-solid fa-location-dot"></i> Production House: </span>
-                      68, Green Road, Dhaka- 1205, Bangladesh</p>
+                      Kanchon Tower, Free School Street, Kathalbagan, Dhaka- 1205, Bangladesh</p>
                     <p></p>
                     </Link>
                   </li>
@@ -163,8 +163,7 @@ const FooterOne = () => {
 
                   <li>
                     <Link href="tel:1-732-798-0976">
-                      <i className="fa-solid fa-phone-volume"></i>+1 (732)
-                      798-0976
+                      <i className="fa-solid fa-phone-volume"></i>+1 (347) 951-8151
                     </Link>
                   </li>
                 </ul>

@@ -66,8 +66,7 @@ const WorkSec = () => {
                           <span>01</span>
                         </div>
                         <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                          You start by sending the images that need editing to the service.
                         </p>
                       </li>
                       <li
@@ -80,8 +79,7 @@ const WorkSec = () => {
                           <span>02</span>
                         </div>
                         <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                        The editing team will work on your images as quickly as possible to ensure timely delivery.
                         </p>
                       </li>
                       <li
@@ -94,8 +92,7 @@ const WorkSec = () => {
                           <span>03</span>
                         </div>
                         <p>
-                          Request a quote for the images you need edited — we&apos;ll
-                          get back to you within 45 minutes
+                        We will send an email with the download link.
                         </p>
                       </li>
                     </ul>

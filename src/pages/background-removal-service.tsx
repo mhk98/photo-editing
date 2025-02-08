@@ -6,9 +6,9 @@ import ServiceDetailsAbout from "@/components/containers/backgroundRemoval/Servi
 import WorkSec from "@/components/containers/backgroundRemoval/WorkSec";
 import ServiceProject from "@/components/containers/backgroundRemoval/ServiceProject";
 import ServicePricing from "@/components/containers/backgroundRemoval/ServicePricing";
-import ServiceFaq from "@/components/containers/backgroundRemoval/ServiceFaq";
 import Trial from "@/components/containers/backgroundRemoval/Trial";
 import Testimonial from "@/components/containers/backgroundRemoval/Testimonial";
+import AboutFaq from "@/components/containers/about/AboutFaq";
 
 
 const BackgroundRemovalService = () => {
@@ -20,7 +20,7 @@ const BackgroundRemovalService = () => {
       <ServiceProject />
       <ServicePricing />
       <Testimonial />
-      <ServiceFaq />
+      <AboutFaq />
       <Trial />
       <SponsorSlider />
     </Layout>

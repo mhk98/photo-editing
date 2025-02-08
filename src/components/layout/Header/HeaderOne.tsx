@@ -161,7 +161,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </div>
                     <ul className="nav__menu-items">
                     
-                      <li className="nav__menu-item">
+                      <li className="nav__menu-item" style={{listStyle:"none", }}>
                         <Link
                           className="nav__menu-link hide-nav"
                           style={getActiveLinkStyle("/")}
@@ -170,7 +170,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           Home
                         </Link>
                       </li>
-                      <li className="nav__menu-item">
+                      <li className="nav__menu-item" style={{listStyle:"none", }}>
                         <Link
                           className="nav__menu-link hide-nav"
                           style={getActiveLinkStyle("/about-us")}
@@ -182,7 +182,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     
 
 
-                      <li className="nav__menu-item nav__menu-item--dropdown">
+                      <li className="nav__menu-item nav__menu-item--dropdown" style={{listStyle:"none", }}>
                         <button
                           aria-label="dropdown menu container"
                           className={`nav__menu-link nav__menu-link--dropdown ${isSubMenuButton(
@@ -311,7 +311,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       </li>
 
                      
-                      <li className="nav__menu-item">
+                      <li className="nav__menu-item" style={{listStyle:"none", }}>
                         <Link
                           className="nav__menu-link hide-nav"
                           style={getActiveLinkStyle("/portfolio")}
@@ -321,7 +321,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
 
-                      <li className="nav__menu-item">
+                      <li className="nav__menu-item" style={{listStyle:"none", }}>
                         <Link
                           className="nav__menu-link hide-nav"
                           style={getActiveLinkStyle("/pricing")}
@@ -331,7 +331,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
                     
-                      <li className="nav__menu-item">
+                      <li className="nav__menu-item" style={{listStyle:"none", }}>
                         <Link
                           className="nav__menu-link hide-nav"
                           style={getActiveLinkStyle("/contact-us")}
@@ -340,7 +340,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           Contact
                         </Link>
                       </li>
-                      <li className="nav__menu-item d-block d-md-none">
+                      <li className="nav__menu-item d-block d-md-none" >
                         <Link href="get-quote" style={getActiveLinkStyle("/get-quote")} className="btn btn--secondary">
                           Get A proposal
                         </Link>
@@ -429,7 +429,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <span>
                 <i className="fa-solid fa-phone-volume"></i>
               </span>
-              <Link href="tel:1-732-798-0976">+1 (732) 798-0976</Link>
+              <Link href="tel:1-732-798-0976">+1 (347) 951-8151</Link>
             </div>
             <div className="single">
               <span>
@@ -447,7 +447,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                 target="_blank"
               >
-              Production House:68, Green Road, Dhaka- 1205, Bangladesh
+              Production House: Kanchon Tower, Free School Street, Kathalbagan, Dhaka- 1205, Bangladesh
 
               </Link>
             </div>
@@ -465,7 +465,7 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
             </div>
           </div>
           <ul className="social-side">
-            <li>
+            {/* <li>
               <Link href="/" aria-label="social media">
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
@@ -474,14 +474,14 @@ const HeaderOne = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <Link href="/" aria-label="social media">
                 <i className="fa-brands fa-twitter"></i>
               </Link>
-            </li>
+            </li> */}
             <li>
-              <Link href="/" aria-label="social media">
+              <Link href="https://www.pinterest.com/pixamoss/" aria-label="social media">
                 <i className="fa-brands fa-pinterest-p"></i>
               </Link>
             </li>
             <li>
-              <Link href="/" aria-label="social media">
+              <Link href="https://www.instagram.com/pixamoss/" aria-label="social media">
                 <i className="fa-brands fa-instagram"></i>
               </Link>
             </li>

@@ -93,7 +93,7 @@ const PricingPlan = () => {
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">50% off</p>
+                  <p className="h6">20% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">
@@ -126,7 +126,7 @@ const PricingPlan = () => {
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">50% off</p>
+                  <p className="h6">20% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">
@@ -159,7 +159,7 @@ const PricingPlan = () => {
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">50% off</p>
+                  <p className="h6">20% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">
@@ -191,7 +191,7 @@ const PricingPlan = () => {
                   </div>
                 </div>
                 <div className="price-frame">
-                  <p className="h6">50% off</p>
+                  <p className="h6">20% off</p>
                   <p>on bulk order</p>
                 </div>
                 <div className="price-plan">

@@ -44,10 +44,10 @@ const AboutTeam = () => {
               data-aos-duration="600"
               data-aos-delay="100"
             >
-              <p>
+              {/* <p>
                 Create with images only stoky subscribers have access to. New
                 images added every month.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
