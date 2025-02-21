@@ -141,7 +141,7 @@ const FooterOne = () => {
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
                       <i className="fa-solid fa-location-dot"></i> USA OFFICE: </span>
-WEXFORD, <span className="ms-3">JAMAICA, NEW YORK 11432</span></p>
+WEXFORD, <span className="ms-3">JAMAICA, NEW YORK</span> <span className="ms-3">11432</span></p>
                     <p></p>
                     </Link>
                   </li>
