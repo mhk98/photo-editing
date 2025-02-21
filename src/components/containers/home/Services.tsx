@@ -240,7 +240,7 @@ const Services = () => {
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$2.49 Only</span>
                   </p>
                 </div>
               </div>
@@ -282,7 +282,7 @@ const Services = () => {
                 </Link>
                 <div className="price-tag">
                   <p>
-                    starting at <span>$0.39 Only</span>
+                    starting at <span>$0.99 Only</span>
                   </p>
                 </div>
               </div>

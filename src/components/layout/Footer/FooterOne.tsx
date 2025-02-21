@@ -34,16 +34,16 @@ const FooterOne = () => {
                 </p>
               </div>
               <ul className="social">
-                {/* <li>
+                 {/* <li>
                   <Link href="/" aria-label="social media">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
-                </li>
+                </li> 
                 <li>
                   <Link href="/" aria-label="social media">
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
-                </li> */}
+                </li>  */}
                 <li>
                   <Link href="https://www.pinterest.com/pixamoss/" aria-label="social media">
                     <i className="fa-brands fa-youtube"></i>
@@ -52,6 +52,11 @@ const FooterOne = () => {
                 <li>
                   <Link href="https://www.instagram.com/pixamoss/" aria-label="social media">
                     <i className="fa-brands fa-instagram"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.instagram.com/pixamoss/" aria-label="social media">
+                    <i className="fa-brands fa-pinterest"></i>
                   </Link>
                 </li>
               </ul>
@@ -136,7 +141,7 @@ const FooterOne = () => {
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
                       <i className="fa-solid fa-location-dot"></i> USA OFFICE: </span>
-WEXFORD, JAMAICA, NEW YORK 11432</p>
+WEXFORD, <span className="ms-3">JAMAICA, NEW YORK 11432</span></p>
                     <p></p>
                     </Link>
                   </li>
@@ -149,7 +154,7 @@ WEXFORD, JAMAICA, NEW YORK 11432</p>
                       <p style={{color:"#787878"}}> <span style={{fontWeight:"bold"}}>
                         
                       <i className="fa-solid fa-location-dot"></i> Production House: </span>
-                      Kanchon Tower, Free School Street, Kathalbagan, Dhaka- 1205, Bangladesh</p>
+                      <span className="ms-3">Kanchon Tower, Free</span> <span className="ms-3">School Street,</span>Kathalbagan, <span className="ms-3">Dhaka- 1205, Bangladesh</span></p>
                     <p></p>
                     </Link>
                   </li>

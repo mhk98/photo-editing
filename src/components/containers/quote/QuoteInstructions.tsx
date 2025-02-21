@@ -35,7 +35,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Choose services</h5>
                 <p>
-                Begin by selecting the services you need. This could involve options depending on what you're looking for—like editing, retouching, or design services
+                Begin by selecting the services you need. This could involve options depending on what you're looking for—like editing, retouching, or design services.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ const QuoteInstructions = () => {
               <div className="content">
                 <h5 className="h5">Drag & Drop Files</h5>
                 <p>
-                Once you've chosen everything, simply drag and drop the files you want to process into the designated area. Make sure your files are ready
+                Once you've chosen everything, simply drag and drop the files you want to process into the designated area. Make sure your files are ready.
                 </p>
               </div>
             </div>

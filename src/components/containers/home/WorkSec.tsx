@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import workThumb from "public/images/work-thumb.png";
+import workThumb from "public/images/Breakdown.jpg";
 import axios from "axios";
 
 interface HomeAbout {
@@ -94,7 +94,7 @@ that your project has been received.
                         </div>
                         <p> <span style={{fontWeight:"bold"}}>Editing Process: </span>
                         The editing team will work on your images as quickly as possible to ensure timely
-                        delivery
+                        delivery.
                         </p>
                       </li>
                       <li
@@ -136,17 +136,14 @@ If you have any further questions or need assistance with the process, feel free
                     data-aos-delay="100"
                   >
 
-                    {
-                      data?.map((item)=>(
-                        <Image key={item.id}
-              src={`http://localhost:5000/${item.image}`}
+                    
+                        <Image 
+              src={workThumb}
               width={635} 
               height={460} 
               layout="responsive"  
               alt="Image" />
-                      ))
-                    }
-
+                     
                   </div>
                 </div>
               </div>
